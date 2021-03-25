@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@discoveryjs/json-ext@^0.5.0":
+  version "0.5.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@discoveryjs/json-ext/-/json-ext-0.5.2.tgz#8f03a22a04de437254e8ce8cc84ba39689288752"
+  integrity sha1-jwOiKgTeQ3JU6M6MyEujlokoh1I=
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@types/eslint-scope/-/eslint-scope-3.7.0.tgz#4792816e31119ebd506902a482caec4951fabd86"
@@ -18,10 +23,15 @@
     "@types/estree" "*"
     "@types/json-schema" "*"
 
-"@types/estree@*", "@types/estree@^0.0.46":
+"@types/estree@*":
   version "0.0.45"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@types/estree/-/estree-0.0.45.tgz#e9387572998e5ecdac221950dab3e8c3b16af884"
   integrity sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==
+
+"@types/estree@^0.0.46":
+  version "0.0.46"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@types/estree/-/estree-0.0.46.tgz#0fb6bfbbeabd7a30880504993369c4bf1deab1fe"
+  integrity sha1-D7a/u+q9ejCIBQSZM2nEvx3qsf4=
 
 "@types/glob@^7.1.1":
   version "7.1.3"
@@ -51,150 +61,148 @@
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@types/node/-/node-14.14.35.tgz#42c953a4e2b18ab931f72477e7012172f4ffa313"
   integrity sha1-QslTpOKxirkx9yR35wEhcvT/oxM=
 
-"@webassemblyjs/ast@1.11.0", "@webassemblyjs/ast@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/ast/-/ast-1.9.1.tgz#76c6937716d68bf1484c15139f5ed30b9abc8bb4"
-  integrity sha1-dsaTdxbWi/FITBUTn17TC5q8i7Q=
+"@types/q@^1.5.1":
+  version "1.5.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
+  integrity sha1-FZJUFOCtLNdlv+9YhC9+JqesyyQ=
+
+"@webassemblyjs/ast@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/ast/-/ast-1.11.0.tgz#a5aa679efdc9e51707a4207139da57920555961f"
+  integrity sha1-papnnv3J5RcHpCBxOdpXkgVVlh8=
   dependencies:
-    "@webassemblyjs/helper-module-context" "1.9.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.9.1"
-    "@webassemblyjs/wast-parser" "1.9.1"
+    "@webassemblyjs/helper-numbers" "1.11.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.0"
 
-"@webassemblyjs/floating-point-hex-parser@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.9.1.tgz#9eb0ff90a1cdeef51f36ba533ed9f06b5cdadd09"
-  integrity sha1-nrD/kKHN7vUfNrpTPtnwa1za3Qk=
+"@webassemblyjs/floating-point-hex-parser@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.11.0.tgz#34d62052f453cd43101d72eab4966a022587947c"
+  integrity sha1-NNYgUvRTzUMQHXLqtJZqAiWHlHw=
 
-"@webassemblyjs/helper-api-error@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-api-error/-/helper-api-error-1.9.1.tgz#ad89015c4246cd7f5ed0556700237f8b9c2c752f"
-  integrity sha1-rYkBXEJGzX9e0FVnACN/i5wsdS8=
+"@webassemblyjs/helper-api-error@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-api-error/-/helper-api-error-1.11.0.tgz#aaea8fb3b923f4aaa9b512ff541b013ffb68d2d4"
+  integrity sha1-quqPs7kj9KqptRL/VBsBP/to0tQ=
 
-"@webassemblyjs/helper-buffer@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-buffer/-/helper-buffer-1.9.1.tgz#186e67ac25f9546ea7939759413987f157524133"
-  integrity sha1-GG5nrCX5VG6nk5dZQTmH8VdSQTM=
+"@webassemblyjs/helper-buffer@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-buffer/-/helper-buffer-1.11.0.tgz#d026c25d175e388a7dbda9694e91e743cbe9b642"
+  integrity sha1-0CbCXRdeOIp9valpTpHnQ8vptkI=
 
-"@webassemblyjs/helper-code-frame@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-code-frame/-/helper-code-frame-1.9.1.tgz#aab177b7cc87a318a8f8664ad68e2c3828ebc42b"
-  integrity sha1-qrF3t8yHoxio+GZK1o4sOCjrxCs=
+"@webassemblyjs/helper-numbers@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-numbers/-/helper-numbers-1.11.0.tgz#7ab04172d54e312cc6ea4286d7d9fa27c88cd4f9"
+  integrity sha1-erBBctVOMSzG6kKG19n6J8iM1Pk=
   dependencies:
-    "@webassemblyjs/wast-printer" "1.9.1"
+    "@webassemblyjs/floating-point-hex-parser" "1.11.0"
+    "@webassemblyjs/helper-api-error" "1.11.0"
+    "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/helper-fsm@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-fsm/-/helper-fsm-1.9.1.tgz#527e91628e84d13d3573884b3dc4c53a81dcb911"
-  integrity sha1-Un6RYo6E0T01c4hLPcTFOoHcuRE=
+"@webassemblyjs/helper-wasm-bytecode@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.11.0.tgz#85fdcda4129902fe86f81abf7e7236953ec5a4e1"
+  integrity sha1-hf3NpBKZAv6G+Bq/fnI2lT7FpOE=
 
-"@webassemblyjs/helper-module-context@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-module-context/-/helper-module-context-1.9.1.tgz#778670b3d471f7cf093d1e7c0dde431b54310e16"
-  integrity sha1-d4Zws9Rx988JPR58Dd5DG1QxDhY=
+"@webassemblyjs/helper-wasm-section@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.11.0.tgz#9ce2cc89300262509c801b4af113d1ca25c1a75b"
+  integrity sha1-nOLMiTACYlCcgBtK8RPRyiXBp1s=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
+    "@webassemblyjs/ast" "1.11.0"
+    "@webassemblyjs/helper-buffer" "1.11.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.0"
+    "@webassemblyjs/wasm-gen" "1.11.0"
 
-"@webassemblyjs/helper-wasm-bytecode@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.9.1.tgz#563f59bcf409ccf469edde168b9426961ffbf6df"
-  integrity sha1-Vj9ZvPQJzPRp7d4Wi5Qmlh/79t8=
-
-"@webassemblyjs/helper-wasm-section@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.9.1.tgz#f7988f94c12b01b99a16120cb01dc099b00e4798"
-  integrity sha1-95iPlMErAbmaFhIMsB3AmbAOR5g=
-  dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/helper-buffer" "1.9.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.9.1"
-    "@webassemblyjs/wasm-gen" "1.9.1"
-
-"@webassemblyjs/ieee754@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/ieee754/-/ieee754-1.9.1.tgz#3b715871ca7d75784717cf9ceca9d7b81374b8af"
-  integrity sha1-O3FYccp9dXhHF8+c7KnXuBN0uK8=
+"@webassemblyjs/ieee754@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/ieee754/-/ieee754-1.11.0.tgz#46975d583f9828f5d094ac210e219441c4e6f5cf"
+  integrity sha1-RpddWD+YKPXQlKwhDiGUQcTm9c8=
   dependencies:
     "@xtuc/ieee754" "^1.2.0"
 
-"@webassemblyjs/leb128@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/leb128/-/leb128-1.9.1.tgz#b2ecaa39f9e8277cc9c707c1ca8b2aa7b27d0b72"
-  integrity sha1-suyqOfnoJ3zJxwfByosqp7J9C3I=
+"@webassemblyjs/leb128@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/leb128/-/leb128-1.11.0.tgz#f7353de1df38aa201cba9fb88b43f41f75ff403b"
+  integrity sha1-9zU94d84qiAcup+4i0P0H3X/QDs=
   dependencies:
     "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/utf8@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/utf8/-/utf8-1.9.1.tgz#d02d9daab85cda3211e43caf31dca74c260a73b0"
-  integrity sha1-0C2dqrhc2jIR5DyvMdynTCYKc7A=
+"@webassemblyjs/utf8@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/utf8/-/utf8-1.11.0.tgz#86e48f959cf49e0e5091f069a709b862f5a2cadf"
+  integrity sha1-huSPlZz0ng5QkfBppwm4YvWiyt8=
 
 "@webassemblyjs/wasm-edit@1.11.0":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-edit/-/wasm-edit-1.9.1.tgz#e27a6bdbf78e5c72fa812a2fc3cbaad7c3e37578"
-  integrity sha1-4npr2/eOXHL6gSovw8uq18PjdXg=
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-edit/-/wasm-edit-1.11.0.tgz#ee4a5c9f677046a210542ae63897094c2027cb78"
+  integrity sha1-7kpcn2dwRqIQVCrmOJcJTCAny3g=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/helper-buffer" "1.9.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.9.1"
-    "@webassemblyjs/helper-wasm-section" "1.9.1"
-    "@webassemblyjs/wasm-gen" "1.9.1"
-    "@webassemblyjs/wasm-opt" "1.9.1"
-    "@webassemblyjs/wasm-parser" "1.9.1"
-    "@webassemblyjs/wast-printer" "1.9.1"
+    "@webassemblyjs/ast" "1.11.0"
+    "@webassemblyjs/helper-buffer" "1.11.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.0"
+    "@webassemblyjs/helper-wasm-section" "1.11.0"
+    "@webassemblyjs/wasm-gen" "1.11.0"
+    "@webassemblyjs/wasm-opt" "1.11.0"
+    "@webassemblyjs/wasm-parser" "1.11.0"
+    "@webassemblyjs/wast-printer" "1.11.0"
 
-"@webassemblyjs/wasm-gen@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-gen/-/wasm-gen-1.9.1.tgz#56a0787d1fa7994fdc7bea59004e5bec7189c5fc"
-  integrity sha1-VqB4fR+nmU/ce+pZAE5b7HGJxfw=
+"@webassemblyjs/wasm-gen@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-gen/-/wasm-gen-1.11.0.tgz#3cdb35e70082d42a35166988dda64f24ceb97abe"
+  integrity sha1-PNs15wCC1Co1FmmI3aZPJM65er4=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.9.1"
-    "@webassemblyjs/ieee754" "1.9.1"
-    "@webassemblyjs/leb128" "1.9.1"
-    "@webassemblyjs/utf8" "1.9.1"
+    "@webassemblyjs/ast" "1.11.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.0"
+    "@webassemblyjs/ieee754" "1.11.0"
+    "@webassemblyjs/leb128" "1.11.0"
+    "@webassemblyjs/utf8" "1.11.0"
 
-"@webassemblyjs/wasm-opt@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-opt/-/wasm-opt-1.9.1.tgz#fbdf8943a825e6dcc4cd69c3e092289fa4aec96c"
-  integrity sha1-+9+JQ6gl5tzEzWnD4JIon6SuyWw=
+"@webassemblyjs/wasm-opt@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-opt/-/wasm-opt-1.11.0.tgz#1638ae188137f4bb031f568a413cd24d32f92978"
+  integrity sha1-FjiuGIE39LsDH1aKQTzSTTL5KXg=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/helper-buffer" "1.9.1"
-    "@webassemblyjs/wasm-gen" "1.9.1"
-    "@webassemblyjs/wasm-parser" "1.9.1"
+    "@webassemblyjs/ast" "1.11.0"
+    "@webassemblyjs/helper-buffer" "1.11.0"
+    "@webassemblyjs/wasm-gen" "1.11.0"
+    "@webassemblyjs/wasm-parser" "1.11.0"
 
-"@webassemblyjs/wasm-parser@1.11.0", "@webassemblyjs/wasm-parser@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-parser/-/wasm-parser-1.9.1.tgz#5e8352a246d3f605312c8e414f7990de55aaedfa"
-  integrity sha1-XoNSokbT9gUxLI5BT3mQ3lWq7fo=
+"@webassemblyjs/wasm-parser@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wasm-parser/-/wasm-parser-1.11.0.tgz#3e680b8830d5b13d1ec86cc42f38f3d4a7700754"
+  integrity sha1-PmgLiDDVsT0eyGzELzjz1KdwB1Q=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/helper-api-error" "1.9.1"
-    "@webassemblyjs/helper-wasm-bytecode" "1.9.1"
-    "@webassemblyjs/ieee754" "1.9.1"
-    "@webassemblyjs/leb128" "1.9.1"
-    "@webassemblyjs/utf8" "1.9.1"
+    "@webassemblyjs/ast" "1.11.0"
+    "@webassemblyjs/helper-api-error" "1.11.0"
+    "@webassemblyjs/helper-wasm-bytecode" "1.11.0"
+    "@webassemblyjs/ieee754" "1.11.0"
+    "@webassemblyjs/leb128" "1.11.0"
+    "@webassemblyjs/utf8" "1.11.0"
 
-"@webassemblyjs/wast-parser@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wast-parser/-/wast-parser-1.9.1.tgz#e25ef13585c060073c1db0d6bd94340fdeee7596"
-  integrity sha1-4l7xNYXAYAc8HbDWvZQ0D97udZY=
+"@webassemblyjs/wast-printer@1.11.0":
+  version "1.11.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wast-printer/-/wast-printer-1.11.0.tgz#680d1f6a5365d6d401974a8e949e05474e1fab7e"
+  integrity sha1-aA0falNl1tQBl0qOlJ4FR04fq34=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/floating-point-hex-parser" "1.9.1"
-    "@webassemblyjs/helper-api-error" "1.9.1"
-    "@webassemblyjs/helper-code-frame" "1.9.1"
-    "@webassemblyjs/helper-fsm" "1.9.1"
+    "@webassemblyjs/ast" "1.11.0"
     "@xtuc/long" "4.2.2"
 
-"@webassemblyjs/wast-printer@1.9.1":
-  version "1.9.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webassemblyjs/wast-printer/-/wast-printer-1.9.1.tgz#b9f38e93652037d4f3f9c91584635af4191ed7c1"
-  integrity sha1-ufOOk2UgN9Tz+ckVhGNa9Bke18E=
+"@webpack-cli/configtest@^1.0.1":
+  version "1.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webpack-cli/configtest/-/configtest-1.0.1.tgz#241aecfbdc715eee96bed447ed402e12ec171935"
+  integrity sha1-JBrs+9xxXu6WvtRH7UAuEuwXGTU=
+
+"@webpack-cli/info@^1.2.2":
+  version "1.2.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webpack-cli/info/-/info-1.2.2.tgz#ef3c0cd947a1fa083e174a59cb74e0b6195c236c"
+  integrity sha1-7zwM2Ueh+gg+F0pZy3TgthlcI2w=
   dependencies:
-    "@webassemblyjs/ast" "1.9.1"
-    "@webassemblyjs/wast-parser" "1.9.1"
-    "@xtuc/long" "4.2.2"
+    envinfo "^7.7.3"
+
+"@webpack-cli/serve@^1.3.0":
+  version "1.3.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/@webpack-cli/serve/-/serve-1.3.0.tgz#2730c770f5f1f132767c63dcaaa4ec28f8c56a6c"
+  integrity sha1-JzDHcPXx8TJ2fGPcqqTsKPjFamw=
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -239,22 +247,20 @@ ajv@^6.1.0, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ansi-align@^2.0.0:
-  version "2.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"
-  integrity sha1-w2rsy6VjuJzrVW82kPCx2eNUf38=
-  dependencies:
-    string-width "^2.0.0"
+alphanum-sort@^1.0.0:
+  version "1.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
+  integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
   integrity sha1-46PaS/uubIapwoViXeEkojQCb78=
 
-ansi-escapes@^3.2.0:
-  version "3.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
-  integrity sha1-h4C5j/nb9WOBUtHx/lwde0RCl2s=
+ansi-colors@^4.1.1:
+  version "4.1.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
+  integrity sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=
 
 ansi-html@0.0.7:
   version "0.0.7"
@@ -265,11 +271,6 @@ ansi-regex@^2.0.0:
   version "2.1.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ansi-regex/-/ansi-regex-2.1.1.tgz#c3b33ab5ee360d86e0e628f0468ae7ef27d654df"
   integrity sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
-
-ansi-regex@^3.0.0:
-  version "3.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ansi-regex/-/ansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
-  integrity sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=
 
 ansi-regex@^4.1.0:
   version "4.1.0"
@@ -291,6 +292,13 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
+argparse@^1.0.7:
+  version "1.0.10"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+  integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
+  dependencies:
+    sprintf-js "~1.0.2"
+
 arr-diff@^4.0.0:
   version "4.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/arr-diff/-/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
@@ -305,18 +313,6 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
   integrity sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=
-
-array-back@^2.0.0:
-  version "2.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/array-back/-/array-back-2.0.0.tgz#6877471d51ecc9c9bfa6136fb6c7d5fe69748022"
-  integrity sha1-aHdHHVHsycm/phNvtsfV/ml0gCI=
-  dependencies:
-    typical "^2.6.1"
-
-array-back@^3.0.1:
-  version "3.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/array-back/-/array-back-3.1.0.tgz#b8859d7a508871c9a7b2cf42f99428f65e96bfb0"
-  integrity sha1-uIWdelCIccmnss9C+ZQo9l6Wv7A=
 
 array-flatten@1.1.1:
   version "1.1.1"
@@ -445,19 +441,6 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-boxen@^1.2.1:
-  version "1.3.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/boxen/-/boxen-1.3.0.tgz#55c6c39a8ba58d9c61ad22cd877532deb665a20b"
-  integrity sha512-TNPjfTr432qx7yOjQyaXm3dSR0MH9vXp7eT1BFSl/C51g+EFnOR9hTg1IreahGBmDNCehscshe45f+C1TBZbLw==
-  dependencies:
-    ansi-align "^2.0.0"
-    camelcase "^4.0.0"
-    chalk "^2.0.1"
-    cli-boxes "^1.0.0"
-    string-width "^2.0.0"
-    term-size "^1.2.0"
-    widest-line "^2.0.0"
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -482,7 +465,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-browserslist@^4.14.5:
+browserslist@^4.0.0, browserslist@^4.14.5:
   version "4.16.3"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/browserslist/-/browserslist-4.16.3.tgz#340aa46940d7db878748567c5dea24a48ddf3717"
   integrity sha1-NAqkaUDX24eHSFZ8XeokpI3fNxc=
@@ -528,13 +511,40 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
-call-bind@^1.0.0, call-bind@^1.0.2:
+call-bind@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/call-bind/-/call-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
   integrity sha512-AEXsYIyyDY3MCzbwdhzG3Jx1R0J2wetQyUynn6dYHAO+bg8l1k7jwZtRv4ryryFs7EP+NDlikJlVe59jr0cM2w==
   dependencies:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.0"
+
+call-bind@^1.0.2:
+  version "1.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
+  integrity sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw=
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.2"
+
+caller-callsite@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
+  integrity sha1-hH4PzgoiN1CpoCfFSzNzGtMVQTQ=
+  dependencies:
+    callsites "^2.0.0"
+
+caller-path@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/caller-path/-/caller-path-2.0.0.tgz#468f83044e369ab2010fac5f06ceee15bb2cb1f4"
+  integrity sha1-Ro+DBE42mrIBD6xfBs7uFbsssfQ=
+  dependencies:
+    caller-callsite "^2.0.0"
+
+callsites@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
+  integrity sha1-BuuE8A7qQT2oav/vrL/7Ngk7PFA=
 
 camel-case@^4.1.1:
   version "4.1.2"
@@ -543,11 +553,6 @@ camel-case@^4.1.1:
   dependencies:
     pascal-case "^3.1.2"
     tslib "^2.0.3"
-
-camelcase@^4.0.0:
-  version "4.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
-  integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
 camelcase@^5.0.0:
   version "5.3.1"
@@ -559,17 +564,22 @@ camelcase@^6.2.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha1-kkr4gcnVJaydh/QNlk5c6pgqGAk=
 
-caniuse-lite@^1.0.30001181:
+caniuse-api@^3.0.0:
+  version "3.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
+  integrity sha1-Xk2Q4idJYdRikZl99Znj7QCO5MA=
+  dependencies:
+    browserslist "^4.0.0"
+    caniuse-lite "^1.0.0"
+    lodash.memoize "^4.1.2"
+    lodash.uniq "^4.5.0"
+
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001181:
   version "1.0.30001204"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/caniuse-lite/-/caniuse-lite-1.0.30001204.tgz#256c85709a348ec4d175e847a3b515c66e79f2aa"
   integrity sha1-JWyFcJo0jsTRdehHo7UVxm558qo=
 
-capture-stack-trace@^1.0.0:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
-  integrity sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw==
-
-chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
@@ -577,11 +587,6 @@ chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
-
-chardet@^0.7.0:
-  version "0.7.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
-  integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
 chokidar@^2.1.8:
   version "2.1.8"
@@ -609,11 +614,6 @@ chrome-trace-event@^1.0.2:
   dependencies:
     tslib "^1.9.0"
 
-ci-info@^1.5.0:
-  version "1.6.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ci-info/-/ci-info-1.6.0.tgz#2ca20dbb9ceb32d4524a683303313f0304b1e497"
-  integrity sha1-LKINu5zrMtRSSmgzAzE/AwSx5Jc=
-
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -631,30 +631,6 @@ clean-css@^4.2.3:
   dependencies:
     source-map "~0.6.0"
 
-cli-boxes@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cli-boxes/-/cli-boxes-1.0.0.tgz#4fa917c3e59c94a004cd61f8ee509da651687143"
-  integrity sha1-T6kXw+WclKAEzWH47lCdplFocUM=
-
-cli-cursor@^2.1.0:
-  version "2.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
-  integrity sha1-s12sN2R5+sw+lHR9QdDQ9SOP/LU=
-  dependencies:
-    restore-cursor "^2.0.0"
-
-cli-table@^0.3.1:
-  version "0.3.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cli-table/-/cli-table-0.3.1.tgz#f53b05266a8b1a0b934b3d0821e6e2dc5914ae23"
-  integrity sha1-9TsFJmqLGguTSz0IIebi3FkUriM=
-  dependencies:
-    colors "1.0.3"
-
-cli-width@^2.0.0:
-  version "2.2.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cli-width/-/cli-width-2.2.1.tgz#b0433d0b4e9c847ef18868a4ef16fd5fc8271c48"
-  integrity sha1-sEM9C06chH7xiGik7xb9X8gnHEg=
-
 cliui@^5.0.0:
   version "5.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
@@ -664,6 +640,24 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
+clone-deep@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/clone-deep/-/clone-deep-4.0.1.tgz#c19fd9bdbbf85942b4fd979c84dcf7d5f07c2387"
+  integrity sha512-neHB9xuzh/wk0dIHweyAXv2aPGZIVk3pLMe+/RNzINf17fe0OG96QroktYAUm7SM1PBnzTabaLboqqxDyMU+SQ==
+  dependencies:
+    is-plain-object "^2.0.4"
+    kind-of "^6.0.2"
+    shallow-clone "^3.0.0"
+
+coa@^2.0.2:
+  version "2.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/coa/-/coa-2.0.2.tgz#43f6c21151b4ef2bf57187db0d73de229e3e7ec3"
+  integrity sha1-Q/bCEVG07yv1cYfbDXPeIp4+fsM=
+  dependencies:
+    "@types/q" "^1.5.1"
+    chalk "^2.4.1"
+    q "^1.1.2"
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -672,7 +666,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.9.0:
+color-convert@^1.9.0, color-convert@^1.9.1:
   version "1.9.3"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   integrity sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg=
@@ -684,35 +678,36 @@ color-name@1.1.3:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
-colorette@^1.2.1, colorette@^1.2.2:
+color-name@^1.0.0:
+  version "1.1.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
+  integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
+
+color-string@^1.5.4:
+  version "1.5.5"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/color-string/-/color-string-1.5.5.tgz#65474a8f0e7439625f3d27a6a19d89fc45223014"
+  integrity sha1-ZUdKjw50OWJfPSemoZ2J/EUiMBQ=
+  dependencies:
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
+
+color@^3.0.0:
+  version "3.1.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/color/-/color-3.1.3.tgz#ca67fb4e7b97d611dcde39eceed422067d91596e"
+  integrity sha1-ymf7TnuX1hHc3jns7tQiBn2RWW4=
+  dependencies:
+    color-convert "^1.9.1"
+    color-string "^1.5.4"
+
+colorette@^1.2.1:
   version "1.2.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/colorette/-/colorette-1.2.1.tgz#4d0b921325c14faf92633086a536db6e89564b1b"
   integrity sha512-puCDz0CzydiSYOrnXpz/PKd69zRrribezjtE9yd4zvytoRc8+RY/KJPvtPFKZS3E3wP6neGyMe0vOTlHO5L3Pw==
 
-colors@1.0.3:
-  version "1.0.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/colors/-/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
-  integrity sha1-BDP0TYCWgP3rYO0mDxsMJi6CpAs=
-
-command-line-args@^5.0.2:
-  version "5.1.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/command-line-args/-/command-line-args-5.1.1.tgz#88e793e5bb3ceb30754a86863f0401ac92fd369a"
-  integrity sha1-iOeT5bs86zB1SoaGPwQBrJL9Npo=
-  dependencies:
-    array-back "^3.0.1"
-    find-replace "^3.0.0"
-    lodash.camelcase "^4.3.0"
-    typical "^4.0.0"
-
-command-line-usage@^5.0.5:
-  version "5.0.5"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/command-line-usage/-/command-line-usage-5.0.5.tgz#5f25933ffe6dedd983c635d38a21d7e623fda357"
-  integrity sha1-XyWTP/5t7dmDxjXTiiHX5iP9o1c=
-  dependencies:
-    array-back "^2.0.0"
-    chalk "^2.4.1"
-    table-layout "^0.4.3"
-    typical "^2.6.1"
+colorette@^1.2.2:
+  version "1.2.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  integrity sha1-y8x51emcrqLb8Q6zom/Ys+as+pQ=
 
 commander@^2.20.0:
   version "2.20.3"
@@ -723,6 +718,11 @@ commander@^4.1.1:
   version "4.1.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
+
+commander@^7.0.0:
+  version "7.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
+  integrity sha1-o2y1fQtQHOEI5NIFWaFQo5HZerc=
 
 component-emitter@^1.2.1:
   version "1.3.0"
@@ -754,18 +754,6 @@ concat-map@0.0.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-configstore@^3.0.0:
-  version "3.1.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/configstore/-/configstore-3.1.2.tgz#c6f25defaeef26df12dd33414b001fe81a543f8f"
-  integrity sha512-vtv5HtGjcYUgFrXc6Kx747B83MRRVS5R1VTEQoXvuP+kMI+if6uywV0nDGoiydJRy4yk7h9od5Og0kxx4zUXmw==
-  dependencies:
-    dot-prop "^4.1.0"
-    graceful-fs "^4.1.2"
-    make-dir "^1.0.0"
-    unique-string "^1.0.0"
-    write-file-atomic "^2.0.0"
-    xdg-basedir "^3.0.0"
-
 connect-history-api-fallback@^1.6.0:
   version "1.6.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/connect-history-api-fallback/-/connect-history-api-fallback-1.6.0.tgz#8b32089359308d111115d81cad3fceab888f97bc"
@@ -793,6 +781,13 @@ cookie@0.4.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha1-vrQ35wIrO21JAZ0IhmUwPr6cFLo=
 
+copy-anything@^2.0.1:
+  version "2.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/copy-anything/-/copy-anything-2.0.3.tgz#842407ba02466b0df844819bbe3baebbe5d45d87"
+  integrity sha1-hCQHugJGaw34RIGbvjuuu+XUXYc=
+  dependencies:
+    is-what "^3.12.0"
+
 copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
@@ -803,23 +798,17 @@ core-util-is@~1.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-create-error-class@^3.0.0:
-  version "3.0.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/create-error-class/-/create-error-class-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
-  integrity sha1-Br56vvlHo/FKMP1hBnHUAbyot7Y=
+cosmiconfig@^5.0.0:
+  version "5.2.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
+  integrity sha1-BA9yaAnFked6F8CjYmykW08Wixo=
   dependencies:
-    capture-stack-trace "^1.0.0"
+    import-fresh "^2.0.0"
+    is-directory "^0.3.1"
+    js-yaml "^3.13.1"
+    parse-json "^4.0.0"
 
-cross-spawn@^5.0.1:
-  version "5.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
-  integrity sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=
-  dependencies:
-    lru-cache "^4.0.1"
-    shebang-command "^1.2.0"
-    which "^1.2.9"
-
-cross-spawn@^6.0.0, cross-spawn@^6.0.5:
+cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
   integrity sha1-Sl7Hxk364iw6FBJNus3uhG2Ay8Q=
@@ -830,15 +819,32 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-crypto-random-string@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
-  integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
+cross-spawn@^7.0.3:
+  version "7.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
+  integrity sha1-9zqFudXUHQRVUcF34ogtSshXKKY=
+  dependencies:
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
+
+css-color-names@0.0.4, css-color-names@^0.0.4:
+  version "0.0.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+  integrity sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=
+
+css-declaration-sorter@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-declaration-sorter/-/css-declaration-sorter-4.0.1.tgz#c198940f63a76d7e36c1e71018b001721054cb22"
+  integrity sha1-wZiUD2OnbX42wecQGLABchBUyyI=
+  dependencies:
+    postcss "^7.0.1"
+    timsort "^0.3.0"
 
 css-loader@^5.2.0:
-  version "5.1.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-loader/-/css-loader-5.1.3.tgz#87f6fc96816b20debe3cf682f85c7e56a963d0d1"
-  integrity sha1-h/b8loFrIN6+PPaC+Fx+Vqlj0NE=
+  version "5.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-loader/-/css-loader-5.2.0.tgz#a9ecda190500863673ce4434033710404efbff00"
+  integrity sha1-qezaGQUAhjZzzkQ0AzcQQE77/wA=
   dependencies:
     camelcase "^6.2.0"
     cssesc "^3.0.0"
@@ -853,7 +859,12 @@ css-loader@^5.2.0:
     schema-utils "^3.0.0"
     semver "^7.3.4"
 
-css-select@^2.0.2:
+css-select-base-adapter@^0.1.1:
+  version "0.1.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-select-base-adapter/-/css-select-base-adapter-0.1.1.tgz#3b2ff4972cc362ab88561507a95408a1432135d7"
+  integrity sha1-Oy/0lyzDYquIVhUHqVQIoUMhNdc=
+
+css-select@^2.0.0, css-select@^2.0.2:
   version "2.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-select/-/css-select-2.1.0.tgz#6a34653356635934a81baca68d0255432105dbef"
   integrity sha1-ajRlM1ZjWTSoG6ymjQJVQyEF2+8=
@@ -862,6 +873,22 @@ css-select@^2.0.2:
     css-what "^3.2.1"
     domutils "^1.7.0"
     nth-check "^1.0.2"
+
+css-tree@1.0.0-alpha.37:
+  version "1.0.0-alpha.37"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-tree/-/css-tree-1.0.0-alpha.37.tgz#98bebd62c4c1d9f960ec340cf9f7522e30709a22"
+  integrity sha1-mL69YsTB2flg7DQM+fdSLjBwmiI=
+  dependencies:
+    mdn-data "2.0.4"
+    source-map "^0.6.1"
+
+css-tree@^1.1.2:
+  version "1.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/css-tree/-/css-tree-1.1.2.tgz#9ae393b5dafd7dae8a622475caec78d3d8fbd7b5"
+  integrity sha1-muOTtdr9fa6KYiR1yux409j717U=
+  dependencies:
+    mdn-data "2.0.14"
+    source-map "^0.6.1"
 
 css-what@^3.2.1:
   version "3.4.2"
@@ -873,13 +900,80 @@ cssesc@^3.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha1-N3QZGZA7hoVl4cCep0dEXNGJg+4=
 
-d@1, d@^1.0.1:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/d/-/d-1.0.1.tgz#8698095372d58dbee346ffd0c7093f99f8f9eb5a"
-  integrity sha1-hpgJU3LVjb7jRv/Qxwk/mfj561o=
+cssnano-preset-default@^4.0.7:
+  version "4.0.7"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssnano-preset-default/-/cssnano-preset-default-4.0.7.tgz#51ec662ccfca0f88b396dcd9679cdb931be17f76"
+  integrity sha1-UexmLM/KD4izltzZZ5zbkxvhf3Y=
   dependencies:
-    es5-ext "^0.10.50"
-    type "^1.0.1"
+    css-declaration-sorter "^4.0.1"
+    cssnano-util-raw-cache "^4.0.1"
+    postcss "^7.0.0"
+    postcss-calc "^7.0.1"
+    postcss-colormin "^4.0.3"
+    postcss-convert-values "^4.0.1"
+    postcss-discard-comments "^4.0.2"
+    postcss-discard-duplicates "^4.0.2"
+    postcss-discard-empty "^4.0.1"
+    postcss-discard-overridden "^4.0.1"
+    postcss-merge-longhand "^4.0.11"
+    postcss-merge-rules "^4.0.3"
+    postcss-minify-font-values "^4.0.2"
+    postcss-minify-gradients "^4.0.2"
+    postcss-minify-params "^4.0.2"
+    postcss-minify-selectors "^4.0.2"
+    postcss-normalize-charset "^4.0.1"
+    postcss-normalize-display-values "^4.0.2"
+    postcss-normalize-positions "^4.0.2"
+    postcss-normalize-repeat-style "^4.0.2"
+    postcss-normalize-string "^4.0.2"
+    postcss-normalize-timing-functions "^4.0.2"
+    postcss-normalize-unicode "^4.0.1"
+    postcss-normalize-url "^4.0.1"
+    postcss-normalize-whitespace "^4.0.2"
+    postcss-ordered-values "^4.1.2"
+    postcss-reduce-initial "^4.0.3"
+    postcss-reduce-transforms "^4.0.2"
+    postcss-svgo "^4.0.2"
+    postcss-unique-selectors "^4.0.1"
+
+cssnano-util-get-arguments@^4.0.0:
+  version "4.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssnano-util-get-arguments/-/cssnano-util-get-arguments-4.0.0.tgz#ed3a08299f21d75741b20f3b81f194ed49cc150f"
+  integrity sha1-7ToIKZ8h11dBsg87gfGU7UnMFQ8=
+
+cssnano-util-get-match@^4.0.0:
+  version "4.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssnano-util-get-match/-/cssnano-util-get-match-4.0.0.tgz#c0e4ca07f5386bb17ec5e52250b4f5961365156d"
+  integrity sha1-wOTKB/U4a7F+xeUiULT1lhNlFW0=
+
+cssnano-util-raw-cache@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssnano-util-raw-cache/-/cssnano-util-raw-cache-4.0.1.tgz#b26d5fd5f72a11dfe7a7846fb4c67260f96bf282"
+  integrity sha1-sm1f1fcqEd/np4RvtMZyYPlr8oI=
+  dependencies:
+    postcss "^7.0.0"
+
+cssnano-util-same-parent@^4.0.0:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.1.tgz#574082fb2859d2db433855835d9a8456ea18bbf3"
+  integrity sha1-V0CC+yhZ0ttDOFWDXZqEVuoYu/M=
+
+cssnano@^4.1.10:
+  version "4.1.10"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/cssnano/-/cssnano-4.1.10.tgz#0ac41f0b13d13d465487e111b778d42da631b8b2"
+  integrity sha1-CsQfCxPRPUZUh+ERt3jULaYxuLI=
+  dependencies:
+    cosmiconfig "^5.0.0"
+    cssnano-preset-default "^4.0.7"
+    is-resolvable "^1.0.0"
+    postcss "^7.0.0"
+
+csso@^4.0.2:
+  version "4.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/csso/-/csso-4.2.0.tgz#ea3a561346e8dc9f546d6febedd50187cf389529"
+  integrity sha1-6jpWE0bo3J9UbW/r7dUBh884lSk=
+  dependencies:
+    css-tree "^1.1.2"
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
@@ -923,11 +1017,6 @@ deep-equal@^1.0.1:
     object-is "^1.0.1"
     object-keys "^1.1.1"
     regexp.prototype.flags "^1.2.0"
-
-deep-extend@^0.6.0, deep-extend@~0.6.0:
-  version "0.6.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
-  integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
 
 default-gateway@^4.2.0:
   version "4.2.0"
@@ -1062,17 +1151,12 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dot-prop@^4.1.0:
-  version "4.2.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/dot-prop/-/dot-prop-4.2.1.tgz#45884194a71fc2cda71cbb4bceb3a4dd2f433ba4"
-  integrity sha1-RYhBlKcfws2nHLtLzrOk3S9DO6Q=
+dot-prop@^5.2.0:
+  version "5.3.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/dot-prop/-/dot-prop-5.3.0.tgz#90ccce708cd9cd82cc4dc8c3ddd9abdd55b20e88"
+  integrity sha1-kMzOcIzZzYLMTcjD3dmr3VWyDog=
   dependencies:
-    is-obj "^1.0.0"
-
-duplexer3@^0.1.4:
-  version "0.1.4"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
-  integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
+    is-obj "^2.0.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -1107,12 +1191,19 @@ end-of-stream@^1.1.0:
     once "^1.4.0"
 
 enhanced-resolve@^5.7.0:
-  version "5.4.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/enhanced-resolve/-/enhanced-resolve-5.4.1.tgz#c89b0c34f17f931902ef2913a125d4b825b49b6f"
-  integrity sha1-yJsMNPF/kxkC7ykToSXUuCW0m28=
+  version "5.7.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/enhanced-resolve/-/enhanced-resolve-5.7.0.tgz#525c5d856680fbd5052de453ac83e32049958b5c"
+  integrity sha1-UlxdhWaA+9UFLeRTrIPjIEmVi1w=
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
+
+enquirer@^2.3.6:
+  version "2.3.6"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/enquirer/-/enquirer-2.3.6.tgz#2a7fe5dd634a1e4125a975ec994ff5456dc3734d"
+  integrity sha1-Kn/l3WNKHkElqXXsmU/1RW3Dc00=
+  dependencies:
+    ansi-colors "^4.1.1"
 
 entities@^1.1.1:
   version "1.1.2"
@@ -1124,6 +1215,11 @@ entities@^2.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/entities/-/entities-2.1.0.tgz#992d3129cf7df6870b96c57858c249a120f8b8b5"
   integrity sha1-mS0xKc999ocLlsV4WMJJoSD4uLU=
 
+envinfo@^7.7.3:
+  version "7.3.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/envinfo/-/envinfo-7.3.1.tgz#892e42f7bf858b3446d9414ad240dbaf8da52f09"
+  integrity sha1-iS5C97+FizRG2UFK0kDbr42lLwk=
+
 errno@^0.1.1, errno@^0.1.3:
   version "0.1.8"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/errno/-/errno-0.1.8.tgz#8bb3e9c7d463be4976ff888f76b4809ebc2e811f"
@@ -1131,36 +1227,48 @@ errno@^0.1.1, errno@^0.1.3:
   dependencies:
     prr "~1.0.1"
 
+error-ex@^1.3.1:
+  version "1.3.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/error-ex/-/error-ex-1.3.2.tgz#b4ac40648107fdcdcfae242f428bea8a14d4f1bf"
+  integrity sha1-tKxAZIEH/c3PriQvQovqihTU8b8=
+  dependencies:
+    is-arrayish "^0.2.1"
+
+es-abstract@^1.17.2, es-abstract@^1.18.0-next.2:
+  version "1.18.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/es-abstract/-/es-abstract-1.18.0.tgz#ab80b359eecb7ede4c298000390bc5ac3ec7b5a4"
+  integrity sha1-q4CzWe7Lft5MKYAAOQvFrD7HtaQ=
+  dependencies:
+    call-bind "^1.0.2"
+    es-to-primitive "^1.2.1"
+    function-bind "^1.1.1"
+    get-intrinsic "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.2"
+    is-callable "^1.2.3"
+    is-negative-zero "^2.0.1"
+    is-regex "^1.1.2"
+    is-string "^1.0.5"
+    object-inspect "^1.9.0"
+    object-keys "^1.1.1"
+    object.assign "^4.1.2"
+    string.prototype.trimend "^1.0.4"
+    string.prototype.trimstart "^1.0.4"
+    unbox-primitive "^1.0.0"
+
 es-module-lexer@^0.4.0:
   version "0.4.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/es-module-lexer/-/es-module-lexer-0.4.1.tgz#dda8c6a14d8f340a24e34331e0fab0cb50438e0e"
   integrity sha1-3ajGoU2PNAok40Mx4Pqwy1BDjg4=
 
-es5-ext@^0.10.35, es5-ext@^0.10.50:
-  version "0.10.53"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/es5-ext/-/es5-ext-0.10.53.tgz#93c5a3acfdbef275220ad72644ad02ee18368de1"
-  integrity sha1-k8WjrP2+8nUiCtcmRK0C7hg2jeE=
+es-to-primitive@^1.2.1:
+  version "1.2.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/es-to-primitive/-/es-to-primitive-1.2.1.tgz#e55cd4c9cdc188bcefb03b366c736323fc5c898a"
+  integrity sha1-5VzUyc3BiLzvsDs2bHNjI/xciYo=
   dependencies:
-    es6-iterator "~2.0.3"
-    es6-symbol "~3.1.3"
-    next-tick "~1.0.0"
-
-es6-iterator@~2.0.3:
-  version "2.0.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/es6-iterator/-/es6-iterator-2.0.3.tgz#a7de889141a05a94b0854403b2d0a0fbfa98f3b7"
-  integrity sha1-p96IkUGgWpSwhUQDstCg+/qY87c=
-  dependencies:
-    d "1"
-    es5-ext "^0.10.35"
-    es6-symbol "^3.1.1"
-
-es6-symbol@^3.1.1, es6-symbol@~3.1.3:
-  version "3.1.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/es6-symbol/-/es6-symbol-3.1.3.tgz#bad5d3c1bcdac28269f4cb331e431c78ac705d18"
-  integrity sha1-utXTwbzawoJp9MszHkMceKxwXRg=
-  dependencies:
-    d "^1.0.1"
-    ext "^1.1.2"
+    is-callable "^1.1.4"
+    is-date-object "^1.0.1"
+    is-symbol "^1.0.2"
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -1184,6 +1292,11 @@ eslint-scope@^5.1.1:
   dependencies:
     esrecurse "^4.3.0"
     estraverse "^4.1.1"
+
+esprima@^4.0.0:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+  integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
 
 esrecurse@^4.3.0:
   version "4.3.0"
@@ -1224,19 +1337,6 @@ eventsource@^1.0.7:
   dependencies:
     original "^1.0.0"
 
-execa@^0.7.0:
-  version "0.7.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
-  integrity sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c=
-  dependencies:
-    cross-spawn "^5.0.1"
-    get-stream "^3.0.0"
-    is-stream "^1.1.0"
-    npm-run-path "^2.0.0"
-    p-finally "^1.0.0"
-    signal-exit "^3.0.0"
-    strip-eof "^1.0.0"
-
 execa@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/execa/-/execa-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
@@ -1249,6 +1349,21 @@ execa@^1.0.0:
     p-finally "^1.0.0"
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
+
+execa@^5.0.0:
+  version "5.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/execa/-/execa-5.0.0.tgz#4029b0007998a841fbd1032e5f4de86a3c1e3376"
+  integrity sha1-QCmwAHmYqEH70QMuX03oajweM3Y=
+  dependencies:
+    cross-spawn "^7.0.3"
+    get-stream "^6.0.0"
+    human-signals "^2.1.0"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.1"
+    onetime "^5.1.2"
+    signal-exit "^3.0.3"
+    strip-final-newline "^2.0.0"
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -1299,13 +1414,6 @@ express@^4.17.1:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-ext@^1.1.2:
-  version "1.4.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ext/-/ext-1.4.0.tgz#89ae7a07158f79d35517882904324077e4379244"
-  integrity sha1-ia56BxWPedNVF4gpBDJAd+Q3kkQ=
-  dependencies:
-    type "^2.0.0"
-
 extend-shallow@^2.0.1:
   version "2.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/extend-shallow/-/extend-shallow-2.0.1.tgz#51af7d614ad9a9f610ea1bafbb989d6b1c56890f"
@@ -1320,15 +1428,6 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
   dependencies:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
-
-external-editor@^3.0.3:
-  version "3.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/external-editor/-/external-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
-  integrity sha1-ywP3QL764D6k0oPK7SdBqD8zVJU=
-  dependencies:
-    chardet "^0.7.0"
-    iconv-lite "^0.4.24"
-    tmp "^0.0.33"
 
 extglob@^2.0.4:
   version "2.0.4"
@@ -1354,19 +1453,17 @@ fast-json-stable-stringify@^2.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha1-h0v2nG9ATCtdmcSBNBOZ/VWJJjM=
 
+fastest-levenshtein@^1.0.12:
+  version "1.0.12"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/fastest-levenshtein/-/fastest-levenshtein-1.0.12.tgz#9990f7d3a88cc5a9ffd1f1745745251700d497e2"
+  integrity sha1-mZD306iMxan/0fF0V0UlFwDUl+I=
+
 faye-websocket@^0.11.3:
   version "0.11.3"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/faye-websocket/-/faye-websocket-0.11.3.tgz#5c0e9a8968e8912c286639fde977a8b209f2508e"
   integrity sha1-XA6aiWjokSwoZjn96XeosgnyUI4=
   dependencies:
     websocket-driver ">=0.5.1"
-
-figures@^2.0.0:
-  version "2.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
-  integrity sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI=
-  dependencies:
-    escape-string-regexp "^1.0.5"
 
 file-uri-to-path@1.0.0:
   version "1.0.0"
@@ -1396,19 +1493,20 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-find-replace@^3.0.0:
-  version "3.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/find-replace/-/find-replace-3.0.0.tgz#3e7e23d3b05167a76f770c9fbd5258b0def68c38"
-  integrity sha1-Pn4j07BRZ6dvdwyfvVJYsN72jDg=
-  dependencies:
-    array-back "^3.0.1"
-
 find-up@^3.0.0:
   version "3.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/find-up/-/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
   integrity sha1-SRafHXmTQwZG2mHsxa41XCHJe3M=
   dependencies:
     locate-path "^3.0.0"
+
+find-up@^4.0.0:
+  version "4.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  integrity sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk=
+  dependencies:
+    locate-path "^5.0.0"
+    path-exists "^4.0.0"
 
 follow-redirects@^1.0.0:
   version "1.13.1"
@@ -1469,10 +1567,14 @@ get-intrinsic@^1.0.0:
     has "^1.0.3"
     has-symbols "^1.0.1"
 
-get-stream@^3.0.0:
-  version "3.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
-  integrity sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ=
+get-intrinsic@^1.0.2, get-intrinsic@^1.1.1:
+  version "1.1.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/get-intrinsic/-/get-intrinsic-1.1.1.tgz#15f59f376f855c446963948f0d24cd3637b4abc6"
+  integrity sha1-FfWfN2+FXERpY5SPDSTNNje0q8Y=
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
 
 get-stream@^4.0.0:
   version "4.1.0"
@@ -1480,6 +1582,11 @@ get-stream@^4.0.0:
   integrity sha1-wbJVV189wh1Zv8ec09K0axw6VLU=
   dependencies:
     pump "^3.0.0"
+
+get-stream@^6.0.0:
+  version "6.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/get-stream/-/get-stream-6.0.0.tgz#3e0012cb6827319da2706e601a1583e8629a6718"
+  integrity sha1-PgASy2gnMZ2icG5gGhWD6GKaZxg=
 
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
@@ -1511,13 +1618,6 @@ glob@^7.0.3, glob@^7.1.3:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-global-dirs@^0.1.0:
-  version "0.1.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/global-dirs/-/global-dirs-0.1.1.tgz#b319c0dd4607f353f3be9cca4c72fc148c49f445"
-  integrity sha1-sxnA3UYH81PzvpzKTHL8FIxJ9EU=
-  dependencies:
-    ini "^1.3.4"
-
 globby@^6.1.0:
   version "6.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/globby/-/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
@@ -1529,23 +1629,6 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-got@^6.7.1:
-  version "6.7.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/got/-/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
-  integrity sha1-JAzQV4WpoY5WHcG0S0HHY+8ejbA=
-  dependencies:
-    create-error-class "^3.0.0"
-    duplexer3 "^0.1.4"
-    get-stream "^3.0.0"
-    is-redirect "^1.0.0"
-    is-retry-allowed "^1.0.0"
-    is-stream "^1.0.0"
-    lowercase-keys "^1.0.0"
-    safe-buffer "^5.0.1"
-    timed-out "^4.0.0"
-    unzip-response "^2.0.1"
-    url-parse-lax "^1.0.0"
-
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.2.4:
   version "4.2.6"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
@@ -1555,6 +1638,11 @@ handle-thing@^2.0.0:
   version "2.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
   integrity sha1-hX95zjWVgMNA1DCBzGSJcNC7I04=
+
+has-bigints@^1.0.0:
+  version "1.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/has-bigints/-/has-bigints-1.0.1.tgz#64fe6acb020673e3b78db035a5af69aa9d07b113"
+  integrity sha1-ZP5qywIGc+O3jbA1pa9pqp0HsRM=
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -1566,7 +1654,7 @@ has-flag@^4.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s=
 
-has-symbols@^1.0.1:
+has-symbols@^1.0.0, has-symbols@^1.0.1, has-symbols@^1.0.2:
   version "1.0.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/has-symbols/-/has-symbols-1.0.2.tgz#165d3070c00309752a1236a479331e3ac56f1423"
   integrity sha1-Fl0wcMADCXUqEjakeTMeOsVvFCM=
@@ -1602,7 +1690,7 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-has@^1.0.3:
+has@^1.0.0, has@^1.0.3:
   version "1.0.3"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
   integrity sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=
@@ -1614,6 +1702,11 @@ he@^1.2.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
 
+hex-color-regex@^1.1.0:
+  version "1.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
+  integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
+
 hpack.js@^2.1.6:
   version "2.1.6"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/hpack.js/-/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
@@ -1623,6 +1716,21 @@ hpack.js@^2.1.6:
     obuf "^1.0.0"
     readable-stream "^2.0.1"
     wbuf "^1.1.0"
+
+hsl-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/hsl-regex/-/hsl-regex-1.0.0.tgz#d49330c789ed819e276a4c0d272dffa30b18fe6e"
+  integrity sha1-1JMwx4ntgZ4nakwNJy3/owsY/m4=
+
+hsla-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
+  integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
+
+html-comment-regex@^1.1.0:
+  version "1.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/html-comment-regex/-/html-comment-regex-1.1.2.tgz#97d4688aeb5c81886a364faa0cad1dda14d433a7"
+  integrity sha1-l9RoiutcgYhqNk+qDK0d2hTUM6c=
 
 html-entities@^1.3.1:
   version "1.4.0"
@@ -1726,7 +1834,12 @@ http-proxy@^1.17.0:
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+human-signals@^2.1.0:
+  version "2.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
+  integrity sha1-3JH8ukLk0G5Kuu0zs+ejwC9RTqA=
+
+iconv-lite@0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
@@ -1743,10 +1856,13 @@ image-size@~0.5.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
   integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
-import-lazy@^2.1.0:
-  version "2.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/import-lazy/-/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
-  integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
+import-fresh@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/import-fresh/-/import-fresh-2.0.0.tgz#d81355c15612d386c61f9ddd3922d4304822a546"
+  integrity sha1-2BNVwVYS04bGH53dOSLUMEgipUY=
+  dependencies:
+    caller-path "^2.0.0"
+    resolve-from "^3.0.0"
 
 import-local@^2.0.0:
   version "2.0.0"
@@ -1756,10 +1872,13 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@^0.1.4:
-  version "0.1.4"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
-  integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
+import-local@^3.0.2:
+  version "3.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/import-local/-/import-local-3.0.2.tgz#a8cfd0431d1de4a2199703d003e3e62364fa6db6"
+  integrity sha1-qM/QQx0d5KIZlwPQA+PmI2T6bbY=
+  dependencies:
+    pkg-dir "^4.2.0"
+    resolve-cwd "^3.0.0"
 
 indexes-of@^1.0.1:
   version "1.0.1"
@@ -1784,30 +1903,6 @@ inherits@2.0.3:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
-ini@^1.3.4, ini@~1.3.0:
-  version "1.3.8"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
-  integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
-
-inquirer@^6.0.0:
-  version "6.5.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/inquirer/-/inquirer-6.5.2.tgz#ad50942375d036d327ff528c08bd5fab089928ca"
-  integrity sha1-rVCUI3XQNtMn/1KMCL1fqwiZKMo=
-  dependencies:
-    ansi-escapes "^3.2.0"
-    chalk "^2.4.2"
-    cli-cursor "^2.1.0"
-    cli-width "^2.0.0"
-    external-editor "^3.0.3"
-    figures "^2.0.0"
-    lodash "^4.17.12"
-    mute-stream "0.0.7"
-    run-async "^2.2.0"
-    rxjs "^6.4.0"
-    string-width "^2.1.0"
-    strip-ansi "^5.1.0"
-    through "^2.3.6"
-
 internal-ip@^4.3.0:
   version "4.3.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/internal-ip/-/internal-ip-4.3.0.tgz#845452baad9d2ca3b69c635a137acb9a0dad0907"
@@ -1816,10 +1911,10 @@ internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
-interpret@^1.1.0:
-  version "1.4.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
-  integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
+interpret@^2.2.0:
+  version "2.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/interpret/-/interpret-2.2.0.tgz#1a78a0b5965c40a5416d007ad6f50ad27c417df9"
+  integrity sha1-GnigtZZcQKVBbQB61vUK0nxBffk=
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -1835,6 +1930,11 @@ ipaddr.js@1.9.1, ipaddr.js@^1.9.0:
   version "1.9.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=
+
+is-absolute-url@^2.0.0:
+  version "2.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-absolute-url/-/is-absolute-url-2.1.0.tgz#50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6"
+  integrity sha1-UFMN+4T8yap9vnhS6Do3uTufKqY=
 
 is-absolute-url@^3.0.3:
   version "3.0.3"
@@ -1862,6 +1962,21 @@ is-arguments@^1.0.4:
   dependencies:
     call-bind "^1.0.0"
 
+is-arrayish@^0.2.1:
+  version "0.2.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
+  integrity sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
+
+is-arrayish@^0.3.1:
+  version "0.3.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
+  integrity sha1-RXSirlb3qyBolvtDHq7tBm/fjwM=
+
+is-bigint@^1.0.1:
+  version "1.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-bigint/-/is-bigint-1.0.1.tgz#6923051dfcbc764278540b9ce0e6b3213aa5ebc2"
+  integrity sha1-aSMFHfy8dkJ4VAuc4OazITql68I=
+
 is-binary-path@^1.0.0:
   version "1.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
@@ -1869,17 +1984,41 @@ is-binary-path@^1.0.0:
   dependencies:
     binary-extensions "^1.0.0"
 
+is-boolean-object@^1.1.0:
+  version "1.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-boolean-object/-/is-boolean-object-1.1.0.tgz#e2aaad3a3a8fca34c28f6eee135b156ed2587ff0"
+  integrity sha1-4qqtOjqPyjTCj27uE1sVbtJYf/A=
+  dependencies:
+    call-bind "^1.0.0"
+
 is-buffer@^1.1.5:
   version "1.1.6"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha1-76ouqdqg16suoTqXsritUf776L4=
 
-is-ci@^1.0.10:
-  version "1.2.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-ci/-/is-ci-1.2.1.tgz#e3779c8ee17fccf428488f6e281187f2e632841c"
-  integrity sha1-43ecjuF/zPQoSI9uKBGH8uYyhBw=
+is-callable@^1.1.4, is-callable@^1.2.3:
+  version "1.2.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-callable/-/is-callable-1.2.3.tgz#8b1e0500b73a1d76c70487636f368e519de8db8e"
+  integrity sha1-ix4FALc6HXbHBIdjbzaOUZ3o244=
+
+is-color-stop@^1.0.0:
+  version "1.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-color-stop/-/is-color-stop-1.1.0.tgz#cfff471aee4dd5c9e158598fbe12967b5cdad345"
+  integrity sha1-z/9HGu5N1cnhWFmPvhKWe1za00U=
   dependencies:
-    ci-info "^1.5.0"
+    css-color-names "^0.0.4"
+    hex-color-regex "^1.1.0"
+    hsl-regex "^1.0.0"
+    hsla-regex "^1.0.0"
+    rgb-regex "^1.0.1"
+    rgba-regex "^1.0.0"
+
+is-core-module@^2.2.0:
+  version "2.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-core-module/-/is-core-module-2.2.0.tgz#97037ef3d52224d85163f5597b2b63d9afed981a"
+  integrity sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==
+  dependencies:
+    has "^1.0.3"
 
 is-data-descriptor@^0.1.4:
   version "0.1.4"
@@ -1918,6 +2057,11 @@ is-descriptor@^1.0.0, is-descriptor@^1.0.2:
     is-data-descriptor "^1.0.0"
     kind-of "^6.0.2"
 
+is-directory@^0.3.1:
+  version "0.3.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
+  integrity sha1-YTObbyR1/Hcv2cnYP1yFddwVSuE=
+
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
@@ -1954,18 +2098,15 @@ is-glob@^4.0.0:
   dependencies:
     is-extglob "^2.1.1"
 
-is-installed-globally@^0.1.0:
-  version "0.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-installed-globally/-/is-installed-globally-0.1.0.tgz#0dfd98f5a9111716dd535dda6492f67bf3d25a80"
-  integrity sha1-Df2Y9akRFxbdU13aZJL2e/PSWoA=
-  dependencies:
-    global-dirs "^0.1.0"
-    is-path-inside "^1.0.0"
+is-negative-zero@^2.0.1:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-negative-zero/-/is-negative-zero-2.0.0.tgz#9553b121b0fac28869da9ed459e20c7543788461"
+  integrity sha1-lVOxIbD6wohp2p7UWeIMdUN4hGE=
 
-is-npm@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-npm/-/is-npm-1.0.0.tgz#f2fb63a65e4905b406c86072765a1a4dc793b9f4"
-  integrity sha1-8vtjpl5JBbQGyGBydloaTceTufQ=
+is-number-object@^1.0.4:
+  version "1.0.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-number-object/-/is-number-object-1.0.4.tgz#36ac95e741cf18b283fc1ddf5e83da798e3ec197"
+  integrity sha1-NqyV50HPGLKD/B3fXoPaeY4+wZc=
 
 is-number@^3.0.0:
   version "3.0.0"
@@ -1974,10 +2115,10 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
-is-obj@^1.0.0:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-obj/-/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
-  integrity sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
+is-obj@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-obj/-/is-obj-2.0.0.tgz#473fb05d973705e3fd9620545018ca8e22ef4982"
+  integrity sha1-Rz+wXZc3BeP9liBUUBjKjiLvSYI=
 
 is-path-cwd@^2.0.0:
   version "2.2.0"
@@ -1990,13 +2131,6 @@ is-path-in-cwd@^2.0.0:
   integrity sha1-v+Lcomxp85cmWkAJljYCk1oFOss=
   dependencies:
     is-path-inside "^2.1.0"
-
-is-path-inside@^1.0.0:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-path-inside/-/is-path-inside-1.0.1.tgz#8ef5b7de50437a3fdca6b4e865ef7aa55cb48036"
-  integrity sha1-jvW33lBDej/cprToZe96pVy0gDY=
-  dependencies:
-    path-is-inside "^1.0.1"
 
 is-path-inside@^2.1.0:
   version "2.1.0"
@@ -2012,12 +2146,7 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   dependencies:
     isobject "^3.0.1"
 
-is-redirect@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-redirect/-/is-redirect-1.0.0.tgz#1d03dded53bd8db0f30c26e4f95d36fc7c87dc24"
-  integrity sha1-HQPd7VO9jbDzDCbk+V02/HyH3CQ=
-
-is-regex@^1.0.4:
+is-regex@^1.0.4, is-regex@^1.1.2:
   version "1.1.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-regex/-/is-regex-1.1.2.tgz#81c8ebde4db142f2cf1c53fc86d6a45788266251"
   integrity sha1-gcjr3k2xQvLPHFP8htakV4gmYlE=
@@ -2025,15 +2154,44 @@ is-regex@^1.0.4:
     call-bind "^1.0.2"
     has-symbols "^1.0.1"
 
-is-retry-allowed@^1.0.0:
-  version "1.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-retry-allowed/-/is-retry-allowed-1.2.0.tgz#d778488bd0a4666a3be8a1482b9f2baafedea8b4"
-  integrity sha512-RUbUeKwvm3XG2VYamhJL1xFktgjvPzL0Hq8C+6yrWIswDy3BIXGqCxhxkc30N9jqK311gVU137K8Ei55/zVJRg==
+is-resolvable@^1.0.0:
+  version "1.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
+  integrity sha1-+xj4fOH+uSUWnJpAfBkxijIG7Yg=
 
-is-stream@^1.0.0, is-stream@^1.1.0:
+is-stream@^1.1.0:
   version "1.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+
+is-stream@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
+  integrity sha1-venDJoDW+uBBKdasnZIc54FfeOM=
+
+is-string@^1.0.5:
+  version "1.0.5"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-string/-/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
+  integrity sha512-buY6VNRjhQMiF1qWDouloZlQbRhDPCebwxSjxMjxgemYT46YMd2NR0/H+fBhEfWX4A/w9TBJ+ol+okqJKFE6vQ==
+
+is-svg@^3.0.0:
+  version "3.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-svg/-/is-svg-3.0.0.tgz#9321dbd29c212e5ca99c4fa9794c714bcafa2f75"
+  integrity sha1-kyHb0pwhLlypnE+peUxxS8r6L3U=
+  dependencies:
+    html-comment-regex "^1.1.0"
+
+is-symbol@^1.0.2, is-symbol@^1.0.3:
+  version "1.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-symbol/-/is-symbol-1.0.3.tgz#38e1014b9e6329be0de9d24a414fd7441ec61937"
+  integrity sha1-OOEBS55jKb4N6dJKQU/XRB7GGTc=
+  dependencies:
+    has-symbols "^1.0.1"
+
+is-what@^3.12.0:
+  version "3.14.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/is-what/-/is-what-3.14.1.tgz#e1222f46ddda85dead0fd1c9df131760e77755c1"
+  integrity sha1-4SIvRt3ahd6tD9HJ3xMXYOd3VcE=
 
 is-windows@^1.0.2:
   version "1.0.2"
@@ -2076,7 +2234,15 @@ jest-worker@^26.6.2:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-json-parse-better-errors@^1.0.2:
+js-yaml@^3.13.1:
+  version "3.14.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
+  integrity sha1-2ugS/bOCX6MGYJqHFzg8UMNqBTc=
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
+json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha1-u4Z8+zRQ5pEHwTHRxRS6s9yLyqk=
@@ -2090,13 +2256,6 @@ json3@^3.3.3:
   version "3.3.3"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/json3/-/json3-3.3.3.tgz#7fc10e375fc5ae42c4705a5cc0aa6f62be305b81"
   integrity sha1-f8EON1/FrkLEcFpcwKpvYr4wW4E=
-
-json5@^1.0.1:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  integrity sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4=
-  dependencies:
-    minimist "^1.2.0"
 
 json5@^2.1.2:
   version "2.1.3"
@@ -2139,50 +2298,42 @@ klona@^2.0.4:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha1-e7Hjr/sMuGJFR+9+j2cI6i4538A=
 
-latest-version@^3.0.0:
-  version "3.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/latest-version/-/latest-version-3.1.0.tgz#a205383fea322b33b5ae3b18abee0dc2f356ee15"
-  integrity sha1-ogU4P+oyKzO1rjsYq+4NwvNW7hU=
+last-call-webpack-plugin@^3.0.0:
+  version "3.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/last-call-webpack-plugin/-/last-call-webpack-plugin-3.0.0.tgz#9742df0e10e3cf46e5c0381c2de90d3a7a2d7555"
+  integrity sha512-7KI2l2GIZa9p2spzPIVZBYyNKkN+e/SQPpnjlTiPhdbDW3F86tdKKELxKpzJ5sgU19wQWsACULZmpTPYHeWO5w==
   dependencies:
-    package-json "^4.0.0"
+    lodash "^4.17.5"
+    webpack-sources "^1.1.0"
 
 less-loader@^8.0.0:
-  version "7.0.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/less-loader/-/less-loader-7.0.2.tgz#0d73a49ec32a9d3ff12614598e6e2b47fb2a35c4"
-  integrity sha512-7MKlgjnkCf63E3Lv6w2FvAEgLMx3d/tNBExITcanAq7ys5U8VPWT3F6xcRjYmdNfkoQ9udoVFb1r2azSiTnD6w==
+  version "8.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/less-loader/-/less-loader-8.0.0.tgz#cd7f10e3c13ca8f71244a11ee396405ae3ce9c82"
+  integrity sha1-zX8Q48E8qPcSRKEe45ZAWuPOnII=
   dependencies:
     klona "^2.0.4"
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
 
 less@^4.1.1:
-  version "3.13.1-alpha.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/less/-/less-3.13.1-alpha.1.tgz#1bea2e7f58434befe1b6ca43244e7a467c3222cd"
-  integrity sha512-SNMq5YVUnl/AlztL1bfqH8EuZISImHzMEXSPk4cktstoBBdZ5M34Kbog6mW9/kKasvqn5pfVOmPx5kPmoz4SaQ==
+  version "4.1.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/less/-/less-4.1.1.tgz#15bf253a9939791dc690888c3ff424f3e6c7edba"
+  integrity sha1-Fb8lOpk5eR3GkIiMP/Qk8+bH7bo=
   dependencies:
-    tslib "^2.0.1"
+    copy-anything "^2.0.1"
+    parse-node-version "^1.0.1"
+    tslib "^1.10.0"
   optionalDependencies:
     errno "^0.1.1"
     graceful-fs "^4.1.2"
     image-size "~0.5.0"
     make-dir "^2.1.0"
     mime "^1.4.1"
-    native-request "^1.0.5"
+    needle "^2.5.2"
     source-map "~0.6.0"
 
 loader-runner@^4.2.0:
-  version "4.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/loader-runner/-/loader-runner-4.1.0.tgz#f70bc0c29edbabdf2043e7ee73ccc3fe1c96b42d"
-  integrity sha1-9wvAwp7bq98gQ+fuc8zD/hyWtC0=
-
-loader-utils@^1.1.0:
-  version "1.4.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/loader-utils/-/loader-utils-1.4.0.tgz#c579b5e34cb34b1a74edc6c1fb36bfa371d5a613"
-  integrity sha1-xXm140yzSxp07cbB+za/o3HVphM=
-  dependencies:
-    big.js "^5.2.2"
-    emojis-list "^3.0.0"
-    json5 "^1.0.1"
+  version "4.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/loader-runner/-/loader-runner-4.2.0.tgz#d7022380d66d14c5fb1d496b89864ebcfd478384"
+  integrity sha1-1wIjgNZtFMX7HUlriYZOvP1Hg4Q=
 
 loader-utils@^2.0.0:
   version "2.0.0"
@@ -2201,40 +2352,32 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash.camelcase@^4.3.0:
-  version "4.3.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
-  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
+locate-path@^5.0.0:
+  version "5.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+  integrity sha1-Gvujlq/WdqbUJQTQpno6frn2KqA=
+  dependencies:
+    p-locate "^4.1.0"
 
-lodash.padend@^4.6.1:
-  version "4.6.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lodash.padend/-/lodash.padend-4.6.1.tgz#53ccba047d06e158d311f45da625f4e49e6f166e"
-  integrity sha1-U8y6BH0G4VjTEfRdpiX05J5vFm4=
+lodash.memoize@^4.1.2:
+  version "4.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+  integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20:
+lodash.uniq@^4.5.0:
+  version "4.5.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
+
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.20, lodash@^4.17.5:
   version "4.17.21"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
-
-log-symbols@^2.1.0:
-  version "2.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
-  integrity sha1-V0Dhxdbw39pK2TI7UzIQfva0xAo=
-  dependencies:
-    chalk "^2.0.1"
 
 loglevel@^1.6.8:
   version "1.7.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/loglevel/-/loglevel-1.7.1.tgz#005fde2f5e6e47068f935ff28573e125ef72f197"
   integrity sha1-AF/eL15uRwaPk1/yhXPhJe9y8Zc=
-
-loglevelnext@^1.0.1:
-  version "1.0.5"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/loglevelnext/-/loglevelnext-1.0.5.tgz#36fc4f5996d6640f539ff203ba819641680d75a2"
-  integrity sha1-NvxPWZbWZA9Tn/IDuoGWQWgNdaI=
-  dependencies:
-    es6-symbol "^3.1.1"
-    object.assign "^4.1.0"
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -2243,32 +2386,12 @@ lower-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 
-lowercase-keys@^1.0.0:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
-  integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
-
-lru-cache@^4.0.1:
-  version "4.1.5"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
-  integrity sha1-i75Q6oW+1ZvJ4z3KuCNe6bz0Q80=
-  dependencies:
-    pseudomap "^1.0.2"
-    yallist "^2.1.2"
-
 lru-cache@^6.0.0:
   version "6.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
   integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
   dependencies:
     yallist "^4.0.0"
-
-make-dir@^1.0.0:
-  version "1.3.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/make-dir/-/make-dir-1.3.0.tgz#79c1033b80515bd6d24ec9933e860ca75ee27f0c"
-  integrity sha1-ecEDO4BRW9bSTsmTPoYMp17ifww=
-  dependencies:
-    pify "^3.0.0"
 
 make-dir@^2.1.0:
   version "2.1.0"
@@ -2289,6 +2412,16 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+mdn-data@2.0.14:
+  version "2.0.14"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
+  integrity sha1-cRP8QoGRfWPOKbQ0RvcB5owlulA=
+
+mdn-data@2.0.4:
+  version "2.0.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mdn-data/-/mdn-data-2.0.4.tgz#699b3c38ac6f1d728091a64650b65d388502fd5b"
+  integrity sha1-aZs8OKxvHXKAkaZGULZdOIUC/Vs=
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -2359,10 +2492,10 @@ mime@^2.4.4:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mime/-/mime-2.4.7.tgz#962aed9be0ed19c91fd7dc2ece5d7f4e89a90d74"
   integrity sha1-lirtm+DtGckf19wuzl1/TompDXQ=
 
-mimic-fn@^1.0.0:
-  version "1.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
-  integrity sha1-ggyGo5M0ZA6ZUWkovQP8qIBX0CI=
+mimic-fn@^2.1.0:
+  version "2.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
+  integrity sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=
 
 minimalistic-assert@^1.0.0:
   version "1.0.1"
@@ -2376,7 +2509,7 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.0, minimist@^1.2.5:
+minimist@^1.2.5:
   version "1.2.5"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
@@ -2389,7 +2522,7 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@^0.5.1, mkdirp@^0.5.5:
+mkdirp@^0.5.1, mkdirp@^0.5.5, mkdirp@~0.5.1:
   version "0.5.5"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
@@ -2429,20 +2562,15 @@ multicast-dns@^6.0.1:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
 
-mute-stream@0.0.7:
-  version "0.0.7"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
-  integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
-
 nan@^2.12.1:
   version "2.14.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha1-9TdkAGlRaPTMaUrJOT0MlYXu6hk=
 
 nanoid@^3.1.20:
-  version "2.0.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/nanoid/-/nanoid-2.0.3.tgz#dde999e173bc9d7bd2ee2746b89909ade98e075e"
-  integrity sha1-3emZ4XO8nXvS7idGuJkJremOB14=
+  version "3.1.22"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/nanoid/-/nanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
+  integrity sha1-s1+Pt9FRmQqK69WqUBXAPPcm+EQ=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -2461,10 +2589,14 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-request@^1.0.5:
-  version "1.0.8"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/native-request/-/native-request-1.0.8.tgz#8f66bf606e0f7ea27c0e5995eb2f5d03e33ae6fb"
-  integrity sha512-vU2JojJVelUGp6jRcLwToPoWGxSx23z/0iX+I77J3Ht17rf2INGjrhOoQnjVo60nQd8wVsgzKkPfRXBiVdD2ag==
+needle@^2.5.2:
+  version "2.6.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/needle/-/needle-2.6.0.tgz#24dbb55f2509e2324b4a99d61f413982013ccdbe"
+  integrity sha1-JNu1XyUJ4jJLSpnWH0E5ggE8zb4=
+  dependencies:
+    debug "^3.2.6"
+    iconv-lite "^0.4.4"
+    sax "^1.2.4"
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -2475,11 +2607,6 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
-
-next-tick@~1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
-  integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -2516,12 +2643,24 @@ normalize-path@^3.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
+normalize-url@^3.0.0:
+  version "3.3.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
+  integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   integrity sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
   dependencies:
     path-key "^2.0.0"
+
+npm-run-path@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"
+  integrity sha1-t+zR5e1T2o43pV4cImnguX7XSOo=
+  dependencies:
+    path-key "^3.0.0"
 
 nth-check@^1.0.2:
   version "1.0.2"
@@ -2544,6 +2683,11 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
+object-inspect@^1.9.0:
+  version "1.9.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/object-inspect/-/object-inspect-1.9.0.tgz#c90521d74e1127b67266ded3394ad6116986533a"
+  integrity sha1-yQUh104RJ7ZyZt7TOUrWEWmGUzo=
+
 object-is@^1.0.1:
   version "1.1.5"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/object-is/-/object-is-1.1.5.tgz#b9deeaa5fc7f1846a0faecdceec138e5778f53ac"
@@ -2564,7 +2708,7 @@ object-visit@^1.0.0:
   dependencies:
     isobject "^3.0.0"
 
-object.assign@^4.1.0:
+object.assign@^4.1.2:
   version "4.1.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/object.assign/-/object.assign-4.1.2.tgz#0ed54a342eceb37b38ff76eb831a0e788cb63940"
   integrity sha1-DtVKNC7Os3s4/3brgxoOeIy2OUA=
@@ -2574,12 +2718,31 @@ object.assign@^4.1.0:
     has-symbols "^1.0.1"
     object-keys "^1.1.1"
 
+object.getownpropertydescriptors@^2.1.0:
+  version "2.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/object.getownpropertydescriptors/-/object.getownpropertydescriptors-2.1.2.tgz#1bd63aeacf0d5d2d2f31b5e393b03a7c601a23f7"
+  integrity sha1-G9Y66s8NXS0vMbXjk7A6fGAaI/c=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+    es-abstract "^1.18.0-next.2"
+
 object.pick@^1.3.0:
   version "1.3.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/object.pick/-/object.pick-1.3.0.tgz#87a10ac4c1694bd2e1cbf53591a66141fb5dd747"
   integrity sha1-h6EKxMFpS9Lhy/U1kaZhQftd10c=
   dependencies:
     isobject "^3.0.1"
+
+object.values@^1.1.0:
+  version "1.1.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/object.values/-/object.values-1.1.3.tgz#eaa8b1e17589f02f698db093f7c62ee1699742ee"
+  integrity sha1-6qix4XWJ8C9pjbCT98Yu4WmXQu4=
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
+    es-abstract "^1.18.0-next.2"
+    has "^1.0.3"
 
 obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
@@ -2605,12 +2768,12 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-onetime@^2.0.0:
-  version "2.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
-  integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
+onetime@^5.1.2:
+  version "5.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/onetime/-/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  integrity sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4=
   dependencies:
-    mimic-fn "^1.0.0"
+    mimic-fn "^2.1.0"
 
 opn@^5.5.0:
   version "5.5.0"
@@ -2619,6 +2782,14 @@ opn@^5.5.0:
   dependencies:
     is-wsl "^1.1.0"
 
+optimize-css-assets-webpack-plugin@^5.0.4:
+  version "5.0.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/optimize-css-assets-webpack-plugin/-/optimize-css-assets-webpack-plugin-5.0.4.tgz#85883c6528aaa02e30bbad9908c92926bb52dc90"
+  integrity sha512-wqd6FdI2a5/FdoiCNNkEvLeA//lHHfG24Ln2Xm2qqdIk4aOlsR18jwpyOihqQ8849W3qu2DX8fOYxpvTMj+93A==
+  dependencies:
+    cssnano "^4.1.10"
+    last-call-webpack-plugin "^3.0.0"
+
 original@^1.0.0:
   version "1.0.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/original/-/original-1.0.2.tgz#e442a61cffe1c5fd20a65f3261c26663b303f25f"
@@ -2626,17 +2797,12 @@ original@^1.0.0:
   dependencies:
     url-parse "^1.4.3"
 
-os-tmpdir@~1.0.2:
-  version "1.0.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
-  integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
-
 p-finally@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
-p-limit@^2.0.0:
+p-limit@^2.0.0, p-limit@^2.2.0:
   version "2.3.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
   integrity sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE=
@@ -2657,6 +2823,13 @@ p-locate@^3.0.0:
   dependencies:
     p-limit "^2.0.0"
 
+p-locate@^4.1.0:
+  version "4.1.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
+  integrity sha1-o0KLtwiLOmApL2aRkni3wpetTwc=
+  dependencies:
+    p-limit "^2.2.0"
+
 p-map@^2.0.0:
   version "2.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/p-map/-/p-map-2.1.0.tgz#310928feef9c9ecc65b68b17693018a665cea175"
@@ -2674,16 +2847,6 @@ p-try@^2.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
 
-package-json@^4.0.0:
-  version "4.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/package-json/-/package-json-4.0.1.tgz#8869a0401253661c4c4ca3da6c2121ed555f5eed"
-  integrity sha1-iGmgQBJTZhxMTKPabCEh7VVfXu0=
-  dependencies:
-    got "^6.7.1"
-    registry-auth-token "^3.0.1"
-    registry-url "^3.0.3"
-    semver "^5.1.0"
-
 param-case@^3.0.3:
   version "3.0.4"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/param-case/-/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
@@ -2691,6 +2854,19 @@ param-case@^3.0.3:
   dependencies:
     dot-case "^3.0.4"
     tslib "^2.0.3"
+
+parse-json@^4.0.0:
+  version "4.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
+  integrity sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=
+  dependencies:
+    error-ex "^1.3.1"
+    json-parse-better-errors "^1.0.1"
+
+parse-node-version@^1.0.1:
+  version "1.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/parse-node-version/-/parse-node-version-1.0.1.tgz#e2b5dbede00e7fa9bc363607f53327e8b073189b"
+  integrity sha512-3YHlOa/JgH6Mnpr05jP9eDG254US9ek25LyIxZlDItp2iJtwyaXQb57lBYLdT3MowkUFYEV2XXNAYIPlESvJlA==
 
 parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
@@ -2720,12 +2896,17 @@ path-exists@^3.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
 
+path-exists@^4.0.0:
+  version "4.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
+  integrity sha1-UTvb4tO5XXdi6METfvoZXGxhtbM=
+
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-path-is-inside@^1.0.1, path-is-inside@^1.0.2:
+path-is-inside@^1.0.2:
   version "1.0.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-is-inside/-/path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53"
   integrity sha1-NlQX3t5EQw0cEa9hAn+s8HS9/FM=
@@ -2734,6 +2915,16 @@ path-key@^2.0.0, path-key@^2.0.1:
   version "2.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
+
+path-key@^3.0.0, path-key@^3.1.0:
+  version "3.1.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
+  integrity sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U=
+
+path-parse@^1.0.6:
+  version "1.0.6"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -2744,11 +2935,6 @@ pify@^2.0.0:
   version "2.3.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
-
-pify@^3.0.0:
-  version "3.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
-  integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
 
 pify@^4.0.1:
   version "4.0.1"
@@ -2774,6 +2960,13 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
+pkg-dir@^4.2.0:
+  version "4.2.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/pkg-dir/-/pkg-dir-4.2.0.tgz#f099133df7ede422e81d1d8448270eeb3e4261f3"
+  integrity sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM=
+  dependencies:
+    find-up "^4.0.0"
+
 portfinder@^1.0.26:
   version "1.0.28"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -2787,6 +2980,124 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
+
+postcss-calc@^7.0.1:
+  version "7.0.5"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-calc/-/postcss-calc-7.0.5.tgz#f8a6e99f12e619c2ebc23cf6c486fdc15860933e"
+  integrity sha1-+KbpnxLmGcLrwjz2xIb9wVhgkz4=
+  dependencies:
+    postcss "^7.0.27"
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.0.2"
+
+postcss-colormin@^4.0.3:
+  version "4.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-colormin/-/postcss-colormin-4.0.3.tgz#ae060bce93ed794ac71264f08132d550956bd381"
+  integrity sha1-rgYLzpPteUrHEmTwgTLVUJVr04E=
+  dependencies:
+    browserslist "^4.0.0"
+    color "^3.0.0"
+    has "^1.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-convert-values@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-convert-values/-/postcss-convert-values-4.0.1.tgz#ca3813ed4da0f812f9d43703584e449ebe189a7f"
+  integrity sha1-yjgT7U2g+BL51DcDWE5Enr4Ymn8=
+  dependencies:
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-discard-comments@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-discard-comments/-/postcss-discard-comments-4.0.2.tgz#1fbabd2c246bff6aaad7997b2b0918f4d7af4033"
+  integrity sha1-H7q9LCRr/2qq15l7KwkY9NevQDM=
+  dependencies:
+    postcss "^7.0.0"
+
+postcss-discard-duplicates@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-discard-duplicates/-/postcss-discard-duplicates-4.0.2.tgz#3fe133cd3c82282e550fc9b239176a9207b784eb"
+  integrity sha1-P+EzzTyCKC5VD8myORdqkge3hOs=
+  dependencies:
+    postcss "^7.0.0"
+
+postcss-discard-empty@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-discard-empty/-/postcss-discard-empty-4.0.1.tgz#c8c951e9f73ed9428019458444a02ad90bb9f765"
+  integrity sha1-yMlR6fc+2UKAGUWERKAq2Qu592U=
+  dependencies:
+    postcss "^7.0.0"
+
+postcss-discard-overridden@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-discard-overridden/-/postcss-discard-overridden-4.0.1.tgz#652aef8a96726f029f5e3e00146ee7a4e755ff57"
+  integrity sha1-ZSrvipZybwKfXj4AFG7npOdV/1c=
+  dependencies:
+    postcss "^7.0.0"
+
+postcss-merge-longhand@^4.0.11:
+  version "4.0.11"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-merge-longhand/-/postcss-merge-longhand-4.0.11.tgz#62f49a13e4a0ee04e7b98f42bb16062ca2549e24"
+  integrity sha1-YvSaE+Sg7gTnuY9CuxYGLKJUniQ=
+  dependencies:
+    css-color-names "0.0.4"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+    stylehacks "^4.0.0"
+
+postcss-merge-rules@^4.0.3:
+  version "4.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-merge-rules/-/postcss-merge-rules-4.0.3.tgz#362bea4ff5a1f98e4075a713c6cb25aefef9a650"
+  integrity sha1-NivqT/Wh+Y5AdacTxsslrv75plA=
+  dependencies:
+    browserslist "^4.0.0"
+    caniuse-api "^3.0.0"
+    cssnano-util-same-parent "^4.0.0"
+    postcss "^7.0.0"
+    postcss-selector-parser "^3.0.0"
+    vendors "^1.0.0"
+
+postcss-minify-font-values@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-minify-font-values/-/postcss-minify-font-values-4.0.2.tgz#cd4c344cce474343fac5d82206ab2cbcb8afd5a6"
+  integrity sha1-zUw0TM5HQ0P6xdgiBqssvLiv1aY=
+  dependencies:
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-minify-gradients@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-minify-gradients/-/postcss-minify-gradients-4.0.2.tgz#93b29c2ff5099c535eecda56c4aa6e665a663471"
+  integrity sha1-k7KcL/UJnFNe7NpWxKpuZlpmNHE=
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    is-color-stop "^1.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-minify-params@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-minify-params/-/postcss-minify-params-4.0.2.tgz#6b9cef030c11e35261f95f618c90036d680db874"
+  integrity sha1-a5zvAwwR41Jh+V9hjJADbWgNuHQ=
+  dependencies:
+    alphanum-sort "^1.0.0"
+    browserslist "^4.0.0"
+    cssnano-util-get-arguments "^4.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+    uniqs "^2.0.0"
+
+postcss-minify-selectors@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-minify-selectors/-/postcss-minify-selectors-4.0.2.tgz#e2e5eb40bfee500d0cd9243500f5f8ea4262fbd8"
+  integrity sha1-4uXrQL/uUA0M2SQ1APX46kJi+9g=
+  dependencies:
+    alphanum-sort "^1.0.0"
+    has "^1.0.0"
+    postcss "^7.0.0"
+    postcss-selector-parser "^3.0.0"
 
 postcss-modules-extract-imports@^3.0.0:
   version "3.0.0"
@@ -2816,6 +3127,125 @@ postcss-modules-values@^4.0.0:
   dependencies:
     icss-utils "^5.0.0"
 
+postcss-normalize-charset@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-charset/-/postcss-normalize-charset-4.0.1.tgz#8b35add3aee83a136b0471e0d59be58a50285dd4"
+  integrity sha1-izWt067oOhNrBHHg1ZvlilAoXdQ=
+  dependencies:
+    postcss "^7.0.0"
+
+postcss-normalize-display-values@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-display-values/-/postcss-normalize-display-values-4.0.2.tgz#0dbe04a4ce9063d4667ed2be476bb830c825935a"
+  integrity sha1-Db4EpM6QY9RmftK+R2u4MMglk1o=
+  dependencies:
+    cssnano-util-get-match "^4.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-positions@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-positions/-/postcss-normalize-positions-4.0.2.tgz#05f757f84f260437378368a91f8932d4b102917f"
+  integrity sha1-BfdX+E8mBDc3g2ipH4ky1LECkX8=
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    has "^1.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-repeat-style@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-4.0.2.tgz#c4ebbc289f3991a028d44751cbdd11918b17910c"
+  integrity sha1-xOu8KJ85kaAo1EdRy90RkYsXkQw=
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    cssnano-util-get-match "^4.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-string@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-string/-/postcss-normalize-string-4.0.2.tgz#cd44c40ab07a0c7a36dc5e99aace1eca4ec2690c"
+  integrity sha1-zUTECrB6DHo23F6Zqs4eyk7CaQw=
+  dependencies:
+    has "^1.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-timing-functions@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-4.0.2.tgz#8e009ca2a3949cdaf8ad23e6b6ab99cb5e7d28d9"
+  integrity sha1-jgCcoqOUnNr4rSPmtquZy159KNk=
+  dependencies:
+    cssnano-util-get-match "^4.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-unicode@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-unicode/-/postcss-normalize-unicode-4.0.1.tgz#841bd48fdcf3019ad4baa7493a3d363b52ae1cfb"
+  integrity sha1-hBvUj9zzAZrUuqdJOj02O1KuHPs=
+  dependencies:
+    browserslist "^4.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-url@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-url/-/postcss-normalize-url-4.0.1.tgz#10e437f86bc7c7e58f7b9652ed878daaa95faae1"
+  integrity sha1-EOQ3+GvHx+WPe5ZS7YeNqqlfquE=
+  dependencies:
+    is-absolute-url "^2.0.0"
+    normalize-url "^3.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-normalize-whitespace@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-normalize-whitespace/-/postcss-normalize-whitespace-4.0.2.tgz#bf1d4070fe4fcea87d1348e825d8cc0c5faa7d82"
+  integrity sha1-vx1AcP5Pzqh9E0joJdjMDF+qfYI=
+  dependencies:
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-ordered-values@^4.1.2:
+  version "4.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-ordered-values/-/postcss-ordered-values-4.1.2.tgz#0cf75c820ec7d5c4d280189559e0b571ebac0eee"
+  integrity sha1-DPdcgg7H1cTSgBiVWeC1ceusDu4=
+  dependencies:
+    cssnano-util-get-arguments "^4.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-reduce-initial@^4.0.3:
+  version "4.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-reduce-initial/-/postcss-reduce-initial-4.0.3.tgz#7fd42ebea5e9c814609639e2c2e84ae270ba48df"
+  integrity sha1-f9QuvqXpyBRgljniwuhK4nC6SN8=
+  dependencies:
+    browserslist "^4.0.0"
+    caniuse-api "^3.0.0"
+    has "^1.0.0"
+    postcss "^7.0.0"
+
+postcss-reduce-transforms@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-reduce-transforms/-/postcss-reduce-transforms-4.0.2.tgz#17efa405eacc6e07be3414a5ca2d1074681d4e29"
+  integrity sha1-F++kBerMbge+NBSlyi0QdGgdTik=
+  dependencies:
+    cssnano-util-get-match "^4.0.0"
+    has "^1.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+
+postcss-selector-parser@^3.0.0:
+  version "3.1.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-selector-parser/-/postcss-selector-parser-3.1.2.tgz#b310f5c4c0fdaf76f94902bbaa30db6aa84f5270"
+  integrity sha1-sxD1xMD9r3b5SQK7qjDbaqhPUnA=
+  dependencies:
+    dot-prop "^5.2.0"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+
 postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
   version "6.0.4"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-selector-parser/-/postcss-selector-parser-6.0.4.tgz#56075a1380a04604c38b063ea7767a129af5c2b3"
@@ -2826,10 +3256,43 @@ postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4:
     uniq "^1.0.1"
     util-deprecate "^1.0.2"
 
-postcss-value-parser@^4.1.0:
+postcss-svgo@^4.0.2:
+  version "4.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-svgo/-/postcss-svgo-4.0.2.tgz#17b997bc711b333bab143aaed3b8d3d6e3d38258"
+  integrity sha1-F7mXvHEbMzurFDqu07jT1uPTglg=
+  dependencies:
+    is-svg "^3.0.0"
+    postcss "^7.0.0"
+    postcss-value-parser "^3.0.0"
+    svgo "^1.0.0"
+
+postcss-unique-selectors@^4.0.1:
+  version "4.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-unique-selectors/-/postcss-unique-selectors-4.0.1.tgz#9446911f3289bfd64c6d680f073c03b1f9ee4bac"
+  integrity sha1-lEaRHzKJv9ZMbWgPBzwDsfnuS6w=
+  dependencies:
+    alphanum-sort "^1.0.0"
+    postcss "^7.0.0"
+    uniqs "^2.0.0"
+
+postcss-value-parser@^3.0.0:
+  version "3.3.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
+  integrity sha1-n/giVH4okyE88cMO+lGsX9G6goE=
+
+postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
   version "4.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
+
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.27:
+  version "7.0.35"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/postcss/-/postcss-7.0.35.tgz#d2be00b998f7f211d8a276974079f2e92b970e24"
+  integrity sha1-0r4AuZj38hHYonaXQHny6SuXDiQ=
+  dependencies:
+    chalk "^2.4.2"
+    source-map "^0.6.1"
+    supports-color "^6.1.0"
 
 postcss@^8.2.8:
   version "8.2.8"
@@ -2839,11 +3302,6 @@ postcss@^8.2.8:
     colorette "^1.2.2"
     nanoid "^3.1.20"
     source-map "^0.6.1"
-
-prepend-http@^1.0.1:
-  version "1.0.4"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
-  integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
 pretty-error@^2.1.1:
   version "2.1.2"
@@ -2871,11 +3329,6 @@ prr@~1.0.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
   integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
 
-pseudomap@^1.0.2:
-  version "1.0.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
-  integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
-
 pump@^3.0.0:
   version "3.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/pump/-/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
@@ -2893,6 +3346,11 @@ punycode@^2.1.0:
   version "2.1.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
+
+q@^1.1.2:
+  version "1.5.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
+  integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
 qs@6.7.0:
   version "6.7.0"
@@ -2931,16 +3389,6 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-rc@^1.0.1, rc@^1.1.6:
-  version "1.2.8"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
-  integrity sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==
-  dependencies:
-    deep-extend "^0.6.0"
-    ini "~1.3.0"
-    minimist "^1.2.0"
-    strip-json-comments "~2.0.1"
-
 readable-stream@^2.0.1, readable-stream@^2.0.2:
   version "2.3.7"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
@@ -2972,10 +3420,12 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-reduce-flatten@^1.0.1:
-  version "1.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/reduce-flatten/-/reduce-flatten-1.0.1.tgz#258c78efd153ddf93cb561237f61184f3696e327"
-  integrity sha1-JYx479FT3fk8tWEjf2EYTzaW4yc=
+rechoir@^0.7.0:
+  version "0.7.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/rechoir/-/rechoir-0.7.0.tgz#32650fd52c21ab252aa5d65b19310441c7e03aca"
+  integrity sha512-ADsDEH2bvbjltXEP+hTIAmeFekTFK0V2BTxMkok6qILyAJEXV0AFfoWcAq4yfll5VdIMd/RVXq0lR+wQi5ZU3Q==
+  dependencies:
+    resolve "^1.9.0"
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
@@ -2992,21 +3442,6 @@ regexp.prototype.flags@^1.2.0:
   dependencies:
     call-bind "^1.0.2"
     define-properties "^1.1.3"
-
-registry-auth-token@^3.0.1:
-  version "3.4.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/registry-auth-token/-/registry-auth-token-3.4.0.tgz#d7446815433f5d5ed6431cd5dca21048f66b397e"
-  integrity sha512-4LM6Fw8eBQdwMYcES4yTnn2TqIasbXuwDx3um+QRs7S55aMKCBKBxvPXl2RiUjHwuJLTyYfxSpmfSAjQpcuP+A==
-  dependencies:
-    rc "^1.1.6"
-    safe-buffer "^5.0.1"
-
-registry-url@^3.0.3:
-  version "3.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/registry-url/-/registry-url-3.1.0.tgz#3d4ef870f73dde1d77f0cf9a381432444e174942"
-  integrity sha1-PU74cPc93h138M+aOBQyRE4XSUI=
-  dependencies:
-    rc "^1.0.1"
 
 relateurl@^0.2.7:
   version "0.2.7"
@@ -3066,23 +3501,35 @@ resolve-cwd@^2.0.0:
   dependencies:
     resolve-from "^3.0.0"
 
+resolve-cwd@^3.0.0:
+  version "3.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/resolve-cwd/-/resolve-cwd-3.0.0.tgz#0f0075f1bb2544766cf73ba6a6e2adfebcb13f2d"
+  integrity sha1-DwB18bslRHZs9zumpuKt/ryxPy0=
+  dependencies:
+    resolve-from "^5.0.0"
+
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
   integrity sha1-six699nWiBvItuZTM17rywoYh0g=
+
+resolve-from@^5.0.0:
+  version "5.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
+  integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
 
 resolve-url@^0.2.1:
   version "0.2.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-restore-cursor@^2.0.0:
-  version "2.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
-  integrity sha1-n37ih/gv0ybU/RYpI9YhKe7g368=
+resolve@^1.9.0:
+  version "1.20.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
+  integrity sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
   dependencies:
-    onetime "^2.0.0"
-    signal-exit "^3.0.2"
+    is-core-module "^2.2.0"
+    path-parse "^1.0.6"
 
 ret@~0.1.10:
   version "0.1.15"
@@ -3094,24 +3541,22 @@ retry@^0.12.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/retry/-/retry-0.12.0.tgz#1b42a6266a21f07421d1b0b54b7dc167b01c013b"
   integrity sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=
 
+rgb-regex@^1.0.1:
+  version "1.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/rgb-regex/-/rgb-regex-1.0.1.tgz#c0e0d6882df0e23be254a475e8edd41915feaeb1"
+  integrity sha1-wODWiC3w4jviVKR16O3UGRX+rrE=
+
+rgba-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
+  integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
+
 rimraf@^2.6.3:
   version "2.7.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
   dependencies:
     glob "^7.1.3"
-
-run-async@^2.2.0:
-  version "2.4.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
-  integrity sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU=
-
-rxjs@^6.4.0:
-  version "6.6.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
-  integrity sha1-jKhGNcTaqQDA05Z6buesYCce5VI=
-  dependencies:
-    tslib "^1.9.0"
 
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
@@ -3134,6 +3579,11 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+
+sax@^1.2.4, sax@~1.2.4:
+  version "1.2.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  integrity sha1-KBYjTiN4vdxOU1T6tcqold9xANk=
 
 schema-utils@^1.0.0:
   version "1.0.0"
@@ -3165,14 +3615,7 @@ selfsigned@^1.10.8:
   dependencies:
     node-forge "^0.10.0"
 
-semver-diff@^2.0.0:
-  version "2.1.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/semver-diff/-/semver-diff-2.1.0.tgz#4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36"
-  integrity sha1-S7uEN8jTfksM8aaP1ybsbWRdbTY=
-  dependencies:
-    semver "^5.0.3"
-
-semver@^5.0.3, semver@^5.1.0, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+semver@^5.5.0, semver@^5.6.0:
   version "5.7.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
@@ -3263,6 +3706,13 @@ setprototypeof@1.1.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha1-fpWsskqpL1iF4KvvW6ExMw1K5oM=
 
+shallow-clone@^3.0.0:
+  version "3.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/shallow-clone/-/shallow-clone-3.0.1.tgz#8f2981ad92531f55035b01fb230769a40e02efa3"
+  integrity sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA==
+  dependencies:
+    kind-of "^6.0.2"
+
 shebang-command@^1.2.0:
   version "1.2.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
@@ -3270,15 +3720,34 @@ shebang-command@^1.2.0:
   dependencies:
     shebang-regex "^1.0.0"
 
+shebang-command@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
+  integrity sha1-zNCvT4g1+9wmW4JGGq8MNmY/NOo=
+  dependencies:
+    shebang-regex "^3.0.0"
+
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-signal-exit@^3.0.0, signal-exit@^3.0.2:
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
+  integrity sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI=
+
+signal-exit@^3.0.0, signal-exit@^3.0.3:
   version "3.0.3"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha1-oUEMLt2PB3sItOJTyOrPyvBXRhw=
+
+simple-swizzle@^0.2.2:
+  version "0.2.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"
+  integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
+  dependencies:
+    is-arrayish "^0.3.1"
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -3331,7 +3800,7 @@ sockjs@^0.3.21:
     uuid "^3.4.0"
     websocket-driver "^0.7.4"
 
-source-list-map@^2.0.1:
+source-list-map@^2.0.0, source-list-map@^2.0.1:
   version "2.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
@@ -3405,6 +3874,16 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+stable@^0.1.8:
+  version "0.1.8"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
+  integrity sha1-g26zyDgv4pNv6vVEYxAXzn1Ho88=
+
 static-extend@^0.1.1:
   version "0.1.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
@@ -3418,14 +3897,6 @@ static-extend@^0.1.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-string-width@^2.0.0, string-width@^2.1.0, string-width@^2.1.1:
-  version "2.1.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
-  integrity sha1-q5Pyeo3BPSjKyBXEYhQ6bZASrp4=
-  dependencies:
-    is-fullwidth-code-point "^2.0.0"
-    strip-ansi "^4.0.0"
-
 string-width@^3.0.0, string-width@^3.1.0:
   version "3.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
@@ -3434,6 +3905,22 @@ string-width@^3.0.0, string-width@^3.1.0:
     emoji-regex "^7.0.1"
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
+
+string.prototype.trimend@^1.0.4:
+  version "1.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/string.prototype.trimend/-/string.prototype.trimend-1.0.3.tgz#a22bd53cca5c7cf44d7c9d5c732118873d6cd18b"
+  integrity sha512-ayH0pB+uf0U28CtjlLvL7NaohvR1amUvVZk+y3DYb0Ey2PUV5zPkkKy9+U1ndVEIXO8hNg18eIv9Jntbii+dKw==
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+
+string.prototype.trimstart@^1.0.4:
+  version "1.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/string.prototype.trimstart/-/string.prototype.trimstart-1.0.3.tgz#9b4cb590e123bb36564401d59824298de50fd5aa"
+  integrity sha512-oBIBUy5lea5tt0ovtOFiEQaBkoBBkyJhZXzJYrSmDo5IUUqbOPvVezuRs/agBIdZ2p2Eo1FD6bD9USyBLfl3xg==
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
 
 string_decoder@^1.1.1:
   version "1.3.0"
@@ -3456,13 +3943,6 @@ strip-ansi@^3.0.0, strip-ansi@^3.0.1:
   dependencies:
     ansi-regex "^2.0.0"
 
-strip-ansi@^4.0.0:
-  version "4.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/strip-ansi/-/strip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
-  integrity sha1-qEeQIusaw2iocTibY1JixQXuNo8=
-  dependencies:
-    ansi-regex "^3.0.0"
-
 strip-ansi@^5.0.0, strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   version "5.2.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/strip-ansi/-/strip-ansi-5.2.0.tgz#8c9a536feb6afc962bdfa5b104a5091c1ad9c0ae"
@@ -3475,10 +3955,10 @@ strip-eof@^1.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
   integrity sha1-u0P/VZim6wXYm1n80SnJgzE2Br8=
 
-strip-json-comments@~2.0.1:
-  version "2.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
-  integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+strip-final-newline@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/strip-final-newline/-/strip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
+  integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
 
 style-loader@^2.0.0:
   version "2.0.0"
@@ -3488,7 +3968,16 @@ style-loader@^2.0.0:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-supports-color@^5.3.0, supports-color@^5.5.0:
+stylehacks@^4.0.0:
+  version "4.0.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/stylehacks/-/stylehacks-4.0.3.tgz#6718fcaf4d1e07d8a1318690881e8d96726a71d5"
+  integrity sha1-Zxj8r00eB9ihMYaQiB6NlnJqcdU=
+  dependencies:
+    browserslist "^4.0.0"
+    postcss "^7.0.0"
+    postcss-selector-parser "^3.0.0"
+
+supports-color@^5.3.0:
   version "5.5.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
@@ -3509,28 +3998,29 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-table-layout@^0.4.3:
-  version "0.4.5"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/table-layout/-/table-layout-0.4.5.tgz#d906de6a25fa09c0c90d1d08ecd833ecedcb7378"
-  integrity sha1-2QbeaiX6CcDJDR0I7Ngz7O3Lc3g=
+svgo@^1.0.0:
+  version "1.3.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/svgo/-/svgo-1.3.2.tgz#b6dc511c063346c9e415b81e43401145b96d4167"
+  integrity sha1-ttxRHAYzRsnkFbgeQ0ARRbltQWc=
   dependencies:
-    array-back "^2.0.0"
-    deep-extend "~0.6.0"
-    lodash.padend "^4.6.1"
-    typical "^2.6.1"
-    wordwrapjs "^3.0.0"
+    chalk "^2.4.1"
+    coa "^2.0.2"
+    css-select "^2.0.0"
+    css-select-base-adapter "^0.1.1"
+    css-tree "1.0.0-alpha.37"
+    csso "^4.0.2"
+    js-yaml "^3.13.1"
+    mkdirp "~0.5.1"
+    object.values "^1.1.0"
+    sax "~1.2.4"
+    stable "^0.1.8"
+    unquote "~1.1.1"
+    util.promisify "~1.0.0"
 
 tapable@^2.0.0, tapable@^2.1.1, tapable@^2.2.0:
   version "2.2.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/tapable/-/tapable-2.2.0.tgz#5c373d281d9c672848213d0e037d1c4165ab426b"
   integrity sha1-XDc9KB2cZyhIIT0OA30cQWWrQms=
-
-term-size@^1.2.0:
-  version "1.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/term-size/-/term-size-1.2.0.tgz#458b83887f288fc56d6fffbfad262e26638efa69"
-  integrity sha1-RYuDiH8oj8Vtb/+/rSYuJmOO+mk=
-  dependencies:
-    execa "^0.7.0"
 
 terser-webpack-plugin@^5.1.1:
   version "5.1.1"
@@ -3562,27 +4052,15 @@ terser@^5.5.1:
     source-map "~0.7.2"
     source-map-support "~0.5.19"
 
-through@^2.3.6:
-  version "2.3.8"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-  integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
-
 thunky@^1.0.2:
   version "1.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/thunky/-/thunky-1.1.0.tgz#5abaf714a9405db0504732bbccd2cedd9ef9537d"
   integrity sha1-Wrr3FKlAXbBQRzK7zNLO3Z75U30=
 
-timed-out@^4.0.0:
-  version "4.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
-  integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
-
-tmp@^0.0.33:
-  version "0.0.33"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
-  integrity sha1-bTQzWIl2jSGyvNoKonfO07G/rfk=
-  dependencies:
-    os-tmpdir "~1.0.2"
+timsort@^0.3.0:
+  version "0.3.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
+  integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
 to-object-path@^0.3.0:
   version "0.3.0"
@@ -3614,12 +4092,12 @@ toidentifier@1.0.0:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM=
 
-tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.9.0:
   version "1.14.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
-tslib@^2.0.1, tslib@^2.0.3:
+tslib@^2.0.3:
   version "2.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
   integrity sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo=
@@ -3632,25 +4110,15 @@ type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-type@^1.0.1:
-  version "1.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/type/-/type-1.2.0.tgz#848dd7698dafa3e54a6c479e759c4bc3f18847a0"
-  integrity sha1-hI3XaY2vo+VKbEeedZxLw/GIR6A=
-
-type@^2.0.0:
-  version "2.5.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/type/-/type-2.5.0.tgz#0a2e78c2e77907b252abe5f298c1b01c63f0db3d"
-  integrity sha1-Ci54wud5B7JSq+XymMGwHGPw2z0=
-
-typical@^2.6.1:
-  version "2.6.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/typical/-/typical-2.6.1.tgz#5c080e5d661cbbe38259d2e70a3c7253e873881d"
-  integrity sha1-XAgOXWYcu+OCWdLnCjxyU+hziB0=
-
-typical@^4.0.0:
-  version "4.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/typical/-/typical-4.0.0.tgz#cbeaff3b9d7ae1e2bbfaf5a4e6f11eccfde94fc4"
-  integrity sha1-y+r/O5164eK7+vWk5vEezP3pT8Q=
+unbox-primitive@^1.0.0:
+  version "1.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/unbox-primitive/-/unbox-primitive-1.0.0.tgz#eeacbc4affa28e9b3d36b5eaeccc50b3251b1d3f"
+  integrity sha1-7qy8Sv+ijps9NrXq7MxQsyUbHT8=
+  dependencies:
+    function-bind "^1.1.1"
+    has-bigints "^1.0.0"
+    has-symbols "^1.0.0"
+    which-boxed-primitive "^1.0.1"
 
 union-value@^1.0.0:
   version "1.0.1"
@@ -3667,17 +4135,20 @@ uniq@^1.0.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
 
-unique-string@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/unique-string/-/unique-string-1.0.0.tgz#9e1057cca851abb93398f8b33ae187b99caec11a"
-  integrity sha1-nhBXzKhRq7kzmPizOuGHuZyuwRo=
-  dependencies:
-    crypto-random-string "^1.0.0"
+uniqs@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/uniqs/-/uniqs-2.0.0.tgz#ffede4b36b25290696e6e165d4a59edb998e6b02"
+  integrity sha1-/+3ks2slKQaW5uFl1KWe25mOawI=
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+
+unquote@~1.1.1:
+  version "1.1.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/unquote/-/unquote-1.1.1.tgz#8fded7324ec6e88a0ff8b905e7c098cdc086d544"
+  integrity sha1-j97XMk7G6IoP+LkF58CYzcCG1UQ=
 
 unset-value@^1.0.0:
   version "1.0.0"
@@ -3687,31 +4158,10 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
-unzip-response@^2.0.1:
-  version "2.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
-  integrity sha1-0vD3N9FrBhXnKmk17QQhRXLVb5c=
-
 upath@^1.1.1:
   version "1.2.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha1-j2bbzVWog6za5ECK+LA1pQRMGJQ=
-
-update-notifier@^2.5.0:
-  version "2.5.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/update-notifier/-/update-notifier-2.5.0.tgz#d0744593e13f161e406acb1d9408b72cad08aff6"
-  integrity sha512-gwMdhgJHGuj/+wHJJs9e6PcCszpxR1b236igrOkUofGhqJuG+amlIKwApH1IW1WWl7ovZxsX49lMBWLxSdm5Dw==
-  dependencies:
-    boxen "^1.2.1"
-    chalk "^2.0.1"
-    configstore "^3.0.0"
-    import-lazy "^2.1.0"
-    is-ci "^1.0.10"
-    is-installed-globally "^0.1.0"
-    is-npm "^1.0.0"
-    latest-version "^3.0.0"
-    semver-diff "^2.0.0"
-    xdg-basedir "^3.0.0"
 
 uri-js@^4.2.2:
   version "4.4.0"
@@ -3724,13 +4174,6 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
-
-url-parse-lax@^1.0.0:
-  version "1.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/url-parse-lax/-/url-parse-lax-1.0.0.tgz#7af8f303645e9bd79a272e7a14ac68bc0609da73"
-  integrity sha1-evjzA2Rem9eaJy56FKxovAYJ2nM=
-  dependencies:
-    prepend-http "^1.0.1"
 
 url-parse@^1.4.3, url-parse@^1.4.7:
   version "1.4.7"
@@ -3758,6 +4201,16 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
+util.promisify@~1.0.0:
+  version "1.0.1"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/util.promisify/-/util.promisify-1.0.1.tgz#6baf7774b80eeb0f7520d8b81d07982a59abbaee"
+  integrity sha1-a693dLgO6w91INi4HQeYKlmruu4=
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.2"
+    has-symbols "^1.0.1"
+    object.getownpropertydescriptors "^2.1.0"
+
 utila@~0.4:
   version "0.4.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/utila/-/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
@@ -3768,20 +4221,25 @@ utils-merge@1.0.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.1.0, uuid@^3.3.2, uuid@^3.4.0:
+uuid@^3.3.2, uuid@^3.4.0:
   version "3.4.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
 
-v8-compile-cache@^2.0.2:
-  version "2.0.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/v8-compile-cache/-/v8-compile-cache-2.0.2.tgz#a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
-  integrity sha1-pCiyi7JnkHNMT8i8n6EG/M6/amw=
+v8-compile-cache@^2.2.0:
+  version "2.3.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
+  integrity sha1-LeGWGMZtwkfc+2+ZM4A12CRaLO4=
 
 vary@~1.1.2:
   version "1.1.2"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+vendors@^1.0.0:
+  version "1.0.4"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
+  integrity sha1-4rgApT56Kbk1BsPPQRANFsTErY4=
 
 watchpack@^2.0.0:
   version "2.1.0"
@@ -3799,24 +4257,24 @@ wbuf@^1.1.0, wbuf@^1.7.3:
     minimalistic-assert "^1.0.0"
 
 webpack-cli@^4.5.0:
-  version "4.0.0-alpha-4"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-cli/-/webpack-cli-4.0.0-alpha-4.tgz#eecaa8c482e06a22eaeb0dbb6091b034d48b505d"
-  integrity sha1-7sqoxILgaiLq6w27YJGwNNSLUF0=
+  version "4.5.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-cli/-/webpack-cli-4.5.0.tgz#b5213b84adf6e1f5de6391334c9fa53a48850466"
+  integrity sha1-tSE7hK324fXeY5EzTJ+lOkiFBGY=
   dependencies:
-    chalk "^2.4.1"
-    cli-table "^0.3.1"
-    command-line-args "^5.0.2"
-    command-line-usage "^5.0.5"
-    cross-spawn "^6.0.5"
-    inquirer "^6.0.0"
-    interpret "^1.1.0"
-    loader-utils "^1.1.0"
-    semver "^5.5.1"
-    supports-color "^5.5.0"
-    update-notifier "^2.5.0"
-    v8-compile-cache "^2.0.2"
-    webpack-log "^1.2.0"
-    webpack-merge "^4.1.5"
+    "@discoveryjs/json-ext" "^0.5.0"
+    "@webpack-cli/configtest" "^1.0.1"
+    "@webpack-cli/info" "^1.2.2"
+    "@webpack-cli/serve" "^1.3.0"
+    colorette "^1.2.1"
+    commander "^7.0.0"
+    enquirer "^2.3.6"
+    execa "^5.0.0"
+    fastest-levenshtein "^1.0.12"
+    import-local "^3.0.2"
+    interpret "^2.2.0"
+    rechoir "^0.7.0"
+    v8-compile-cache "^2.2.0"
+    webpack-merge "^5.7.3"
 
 webpack-dev-middleware@^3.7.2:
   version "3.7.3"
@@ -3868,16 +4326,6 @@ webpack-dev-server@^3.11.2:
     ws "^6.2.1"
     yargs "^13.3.2"
 
-webpack-log@^1.2.0:
-  version "1.2.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-log/-/webpack-log-1.2.0.tgz#a4b34cda6b22b518dbb0ab32e567962d5c72a43d"
-  integrity sha1-pLNM2msitRjbsKsy5WeWLVxypD0=
-  dependencies:
-    chalk "^2.1.0"
-    log-symbols "^2.1.0"
-    loglevelnext "^1.0.1"
-    uuid "^3.1.0"
-
 webpack-log@^2.0.0:
   version "2.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-log/-/webpack-log-2.0.0.tgz#5b7928e0637593f119d32f6227c1e0ac31e1b47f"
@@ -3886,12 +4334,21 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-merge@^4.1.5:
-  version "4.2.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-merge/-/webpack-merge-4.2.2.tgz#a27c52ea783d1398afd2087f547d7b9d2f43634d"
-  integrity sha1-onxS6ng9E5iv0gh/VH17nS9DY00=
+webpack-merge@^5.7.3:
+  version "5.7.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-merge/-/webpack-merge-5.7.3.tgz#2a0754e1877a25a8bbab3d2475ca70a052708213"
+  integrity sha1-KgdU4Yd6Jai7qz0kdcpwoFJwghM=
   dependencies:
-    lodash "^4.17.15"
+    clone-deep "^4.0.1"
+    wildcard "^2.0.0"
+
+webpack-sources@^1.1.0:
+  version "1.4.3"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
+  integrity sha1-7t2OwLko+/HL/plOItLYkPMwqTM=
+  dependencies:
+    source-list-map "^2.0.0"
+    source-map "~0.6.1"
 
 webpack-sources@^2.1.1:
   version "2.2.0"
@@ -3902,9 +4359,9 @@ webpack-sources@^2.1.1:
     source-map "^0.6.1"
 
 webpack@^5.28.0:
-  version "5.27.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack/-/webpack-5.27.2.tgz#44442219e1469ebe00292703b848580faae03f07"
-  integrity sha1-REQiGeFGnr4AKScDuEhYD6rgPwc=
+  version "5.28.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/webpack/-/webpack-5.28.0.tgz#0de8bcd706186b26da09d4d1e8cbd3e4025a7c2f"
+  integrity sha1-Dei81wYYaybaCdTR6MvT5AJafC8=
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.46"
@@ -3944,6 +4401,17 @@ websocket-extensions@>=0.1.1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha1-f4RzvIOd/YdgituV1+sHUhFXikI=
 
+which-boxed-primitive@^1.0.1:
+  version "1.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz#13757bc89b209b049fe5d86430e21cf40a89a8e6"
+  integrity sha1-E3V7yJsgmwSf5dhkMOIc9AqJqOY=
+  dependencies:
+    is-bigint "^1.0.1"
+    is-boolean-object "^1.1.0"
+    is-number-object "^1.0.4"
+    is-string "^1.0.5"
+    is-symbol "^1.0.3"
+
 which-module@^2.0.0:
   version "2.0.0"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/which-module/-/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
@@ -3956,20 +4424,17 @@ which@^1.2.9:
   dependencies:
     isexe "^2.0.0"
 
-widest-line@^2.0.0:
-  version "2.0.1"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/widest-line/-/widest-line-2.0.1.tgz#7438764730ec7ef4381ce4df82fb98a53142a3fc"
-  integrity sha512-Ba5m9/Fa4Xt9eb2ELXt77JxVDV8w7qQrH0zS/TWSJdLyAwQjWoOzpzj5lwVftDz6n/EOu3tNACS84v509qwnJA==
+which@^2.0.1:
+  version "2.0.2"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
+  integrity sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE=
   dependencies:
-    string-width "^2.1.1"
+    isexe "^2.0.0"
 
-wordwrapjs@^3.0.0:
-  version "3.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/wordwrapjs/-/wordwrapjs-3.0.0.tgz#c94c372894cadc6feb1a66bff64e1d9af92c5d1e"
-  integrity sha1-yUw3KJTK3G/rGma/9k4dmvksXR4=
-  dependencies:
-    reduce-flatten "^1.0.1"
-    typical "^2.6.1"
+wildcard@^2.0.0:
+  version "2.0.0"
+  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/wildcard/-/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
+  integrity sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=
 
 wrap-ansi@^5.1.0:
   version "5.1.0"
@@ -3985,15 +4450,6 @@ wrappy@1:
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-write-file-atomic@^2.0.0:
-  version "2.4.3"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/write-file-atomic/-/write-file-atomic-2.4.3.tgz#1fd2e9ae1df3e75b8d8c367443c692d4ca81f481"
-  integrity sha1-H9Lprh3z51uNjDZ0Q8aS1MqB9IE=
-  dependencies:
-    graceful-fs "^4.1.11"
-    imurmurhash "^0.1.4"
-    signal-exit "^3.0.2"
-
 ws@^6.2.1:
   version "6.2.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
@@ -4001,20 +4457,10 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-xdg-basedir@^3.0.0:
-  version "3.0.0"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
-  integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
-
 y18n@^4.0.0:
   version "4.0.1"
   resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
   integrity sha1-jbK4PDHF11CZu4kLI/MJSJHiR9Q=
-
-yallist@^2.1.2:
-  version "2.1.2"
-  resolved "http://nexus.shiwensoft.com:2233/repository/npm-group/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
-  integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
 
 yallist@^4.0.0:
   version "4.0.0"
