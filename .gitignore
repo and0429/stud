@@ -26,7 +26,8 @@ hs_err_pid*
 .idea/
 node_modules/
 yarn.lock
-
+build/
+dist/
 
 
 
