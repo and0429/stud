@@ -1,0 +1,13 @@
+
+BFC布局规则
+    1. 内部的Box会在垂直方向，一个接一个的放置
+    2. BFC区域不会与float box重叠
+    3. 内部的box垂直方向的距离由margin决定，属于同一个BFC的两个相邻的box的margin会发生重叠
+    4. 计算BFC高度时，浮动元素也参与计算（可用于清除浮动）
+    5. BFC就是页面上一个隔离的独立容器，容器里面的元素不会影响到外面的元素，反之亦然。
+BFC什么时候出现
+    1. html元素
+    2. float属性不为none
+    3. position为absolute或者fixed
+    4. overflow不为visible
+    5. display为 inline-block, table-cell, table-caption, flex, inline-flex

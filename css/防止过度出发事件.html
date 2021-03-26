@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="" id="in">
+    <input type="text" name="" id="in2">
+    <script src="./node_modules/lodash/lodash.min.js"></script>
+    <script>
+
+        // 方法1
+        let inputTimeout = 0;
+        let input = document.getElementById("in");
+
+        input.addEventListener("keydown", function (ev) {
+            ev = ev || event
+            clearTimeout(inputTimeout);
+            inputTimeout = setTimeout(() => {
+                fun(ev);
+            }, 1000);
+        });
+
+        function fun(ev) {
+            console.log(ev);
+        }
+
+        // 方法二
+        // https://lodash.com/docs#debounce
+        let input2 = document.querySelector("#in2");
+        input2.onkeydown = _.debounce(function (event) {
+            console.log(event);
+        }, 2000)
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

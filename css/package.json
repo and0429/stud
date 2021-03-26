@@ -1,0 +1,13 @@
+{
+  "name": "css-stu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "git@github.com:and0429/css-stu.git",
+  "author": "zhangkai <and0429@gmail.com>",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "lodash.flattendepth": "^4.7.0"
+  }
+}

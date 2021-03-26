@@ -1,0 +1,12 @@
+1. 本身定位为fixed
+    offsetParent = null (非火狐)
+    offsetParent = body (火狐)
+2. 本身定位不为fixed
+    父级没有定位
+        offsetParent = body 
+    父级有定位
+        offsetParent = 定位父级
+3. 所有的元素都有offsetParent，且遵循以上准册
+4. offsetTop、offsetLeft是参照于offsetParent的内边距的
+5. 获取元素的offsetTop和offsetLeft(元素相对视窗的位置)， 要是想拿到body的位置，必须加上滚动条的位置
+    Elemeng.getBoundingClientRect()

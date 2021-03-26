@@ -1,0 +1,46 @@
+@import './variables.less';
+
+
+body {
+    background-color: @color;
+
+    div {
+        color: @color;
+    }
+
+    &>li {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.header {
+    .meun {
+        padding: 5px;
+
+        .no-border & {
+            width: 100px;
+        }
+    }
+}
+
+p,
+a,
+ul,
+li {
+    &+& {
+        border: 1px @border-style red
+    }
+}
+
+.parent {
+    color: @color;
+    height: 100px;
+    width: 100px;
+}
+
+.child {
+    &:extend(.parent);
+    font-size: 100px;
+    background-color: @color;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            display: flex;
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            margin: 100px auto;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box .content {
+            width: 100px;
+            height: 100px;
+            background-color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="content"></div>
+    </div>
+<script>
+    document.clientWidth
+    let d = document.getElementById('d')
+    d.offsetWidth;
+    document.documentElement.clientWidth
+    document.documentElement.clientHeight
+</script>
+</body>
+</html>

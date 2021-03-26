@@ -1,0 +1,7 @@
+1. 
+    element.offsetWidth: padding box (可视区域) + border
+2. 
+    element.clientWidth: padding box (可视区域)
+3. 获取视窗的大小
+    document.documentElement.clientWidth
+    document.documentElement.clientHeight
