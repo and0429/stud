@@ -83,7 +83,7 @@ module.exports = {
     },
 
     plugins: [
-        new HtmlWebpackPlugin({ // html模版到处
+        new HtmlWebpackPlugin({ // html模版导出
             template: './src/index.html'
         }),
         new MiniCssExtractPlugin({ // 提取css到单独文件
