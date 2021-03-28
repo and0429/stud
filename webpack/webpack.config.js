@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-process.env.NODE_ENV = 'production' // 设置环境变量，用于postcss
+process.env.NODE_ENV = 'production'; // 设置环境变量，用于postcss
 
 module.exports = {
     entry: './src/js/index.js',
@@ -13,7 +13,18 @@ module.exports = {
         path: resolve(__dirname, 'build')
     },
     module: {
-        rules: [{
+        rules: [{ // js语法检查 // 使用airbnb进行语法检查 ,使用  npm i eslint-config-airbnb-base
+            //  "extends": "airbnb-base" 可以配置在package.json 也可以在 .eslintrc 中。
+            test: /\.js/i,
+            exclude: /node_modules/,
+            use: [{
+                loader: 'eslint-loader',
+                options: {
+                    fix: true, // 自动修复不合格的语法
+                }
+            }]
+        },
+        {
             test: /\.css$/i,
             use: [
                 // 'style-loader',  // 创建style标签，将css插入进去，
