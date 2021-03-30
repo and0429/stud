@@ -15,7 +15,7 @@ module.exports = {
     module: {
         rules: [
             { // js 兼容性处理
-                test: /\.js/i,
+                test: /\.js$/i,
                 exclude: /node_modules/,
                 use: [{
                     loader: 'babel-loader',
@@ -88,7 +88,7 @@ module.exports = {
                             publicPath: '../'
                         }
                     },
-                    'css-loader',
+                    'css-loader',// 将css弄到js中
                     {   // css 兼容性处理
                         loader: 'postcss-loader',
                         options: {
@@ -101,7 +101,7 @@ module.exports = {
                     'less-loader'
                 ]
             }, { // 处理图片资源，limit以下大小的图片使用base64
-                test: /\.(png|jpg|gif|svg|jpeg)/i,
+                test: /\.(png|jpg|gif|svg|jpeg)$/i,
                 use: [
                     {
                         loader: 'url-loader',
@@ -128,7 +128,8 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({ // html模版导出
-            template: './src/index.html'
+            template: './src/index.html',
+            minify: false  //true if mode is 'production', otherwise false
         }),
         new MiniCssExtractPlugin({ // 提取css到单独文件
             filename: 'css/[hash:10].css'
@@ -136,6 +137,7 @@ module.exports = {
         new OptimizeCssAssetsPlugin() // 压缩css
     ],
 
+    // js压缩 将 development 改成 production
     mode: 'development',
 
     devServer: {
