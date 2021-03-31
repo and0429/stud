@@ -9,7 +9,7 @@ process.env.NODE_ENV = 'production'; // 设置环境变量，用于postcss
 module.exports = {
     entry: './src/js/index.js',
     output: {
-        filename: 'js/build.js',
+        filename: 'js/built[contenthash:10].js',
         path: resolve(__dirname, 'build')
     },
     module: {
@@ -132,17 +132,24 @@ module.exports = {
             minify: false  //true if mode is 'production', otherwise false
         }),
         new MiniCssExtractPlugin({ // 提取css到单独文件
-            filename: 'css/[hash:10].css'
+            filename: 'css/built[contenthash:10].css'
         }),
         new OptimizeCssAssetsPlugin() // 压缩css
     ],
 
+    // 树摇 tree shaking 1. mode为 production 2. 必须使用es6的import。 在有些版本中可能摇掉 css 文件
+    // 必须使用 sideEffects,
+    // sideEffects: false, // 是有的代码都没有副作用，都参与树摇, 需要配置在package.json中。
+
     // js压缩 将 development 改成 production
     mode: 'development',
 
+    devtool: 'eval-source-map',  //构建后的关联源代码
+
     devServer: {
         port: 8080,
-        open: true
+        open: true,
+        hot: true
     }
 
 }
