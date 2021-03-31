@@ -4,13 +4,15 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-process.env.NODE_ENV = 'production'; // 设置环境变量，用于postcss
+// process.env.NODE_ENV = 'production'; // 设置环境变量，用于postcss
 
 module.exports = {
     entry: './src/js/index.js',
     output: {
         filename: 'js/built[contenthash:10].js',
-        path: resolve(__dirname, 'build')
+        path: resolve(__dirname, 'build'),
+        // publicPath: '/' // 资源引入的路径前缀
+        chunkFilename: 'js/[name]_chunk.js' // 非入口chunk的名称
     },
     module: {
         rules: [
@@ -39,12 +41,15 @@ module.exports = {
                             ]
                         ]
                     }
-                }, {
-                    loader: 'eslint-loader',
-                    options: {
-                        fix: true, // 自动修复不合格的语法
-                    }
-                }]
+                }, 
+                // {
+                //     loader: 'eslint-loader',
+                //     options: {
+                //         fix: true, // 自动修复不合格的语法
+                //     }
+                // }
+            
+            ]
             },
             // { // js语法检查 // 使用airbnb进行语法检查 ,使用  npm i eslint-config-airbnb-base
             //     //  "extends": "airbnb-base" 可以配置在package.json 也可以在 .eslintrc 中。
@@ -144,7 +149,16 @@ module.exports = {
     // js压缩 将 development 改成 production
     mode: 'development',
 
-    devtool: 'eval-source-map',  //构建后的关联源代码
+    devtool: 'source-map',  //构建后的关联源代码
+
+    resolve: {
+        alias: { // 配置路径别名
+            sss: resolve(__dirname, 'src/js'),
+            '$css': resolve(__dirname, 'src/css/')
+        },
+        extensions: ['.js', '.json'], // 配置引入文件的后缀
+        modules: [resolve(__dirname, 'node_modules'), 'node_modules'] // 指定解析模块的路径 默认为node_modules 
+    },
 
     devServer: {
         port: 8080,
