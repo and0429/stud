@@ -1,0 +1,9 @@
+{
+  "name": "sockjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sockjs-client": "^1.5.1"
+  }
+}

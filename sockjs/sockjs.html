@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./node_modules/sockjs-client/dist/sockjs.min.js"></script>
+</head>
+
+<body>
+
+  <script>
+    var sock = new SockJS('http://localhost:8088/ws/mh?xx=345');
+    sock.onopen = function () {
+      console.log('open');
+      // sock.send('test');
+    };
+
+    sock.onmessage = function (e) {
+      console.log('message', e.data);
+    };
+
+    sock.onclose = function () {
+      console.log('close');
+    };
+
+    // ===================================原生 websocket =================
+    var socket = new WebSocket('ws://127.0.0.1:8088/ws/mh2?token=sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss');
+    socket.onopen = function () {
+      console.log('原生open')
+    };
+
+    socket.onmessage = function(e) {
+      console.log('原生message', e.data);
+    }
+
+
+  </script>
+</body>
+
+</html>
