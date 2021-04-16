@@ -7,7 +7,7 @@ const development = {
   mode: 'development',
   devtool: 'source-map',
   devServer: {
-    port: 8080,
+    port: 12306,
     open: true,
     hot: true  // 热部署
   }
