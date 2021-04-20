@@ -12,3 +12,10 @@ async function test() {
 }
 
 test();
+
+function test(a, b) {
+  return a + b;
+}
+
+let a  =  test(5, 6);
+console.log(a);
