@@ -17,5 +17,5 @@ function test(a, b) {
   return a + b;
 }
 
-let a  =  test(5, 6);
+let a = test(5, 6);
 console.log(a);
