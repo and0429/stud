@@ -1,0 +1,19 @@
+# 从springboot2.4开始，默认关闭了bootstrap的启动功能。要使用必须设置环境变量 spring.cloud.bootstrap.enabled=true
+# 原文：
+#  Config First Bootstrap
+#  To use the legacy bootstrap way of connecting to Config Server, bootstrap must be enabled via a property or the spring-cloud-starter-bootstrap starter.
+#  The property is spring.cloud.bootstrap.enabled=true. It must be set as a System Property or environment variable.
+#  Once bootstrap has been enabled any application with Spring Cloud Config Client on the classpath will connect to Config Server as follows: When a config client starts,
+#    it binds to the Config Server (through the spring.cloud.config.uri bootstrap configuration property) and initializes Spring Environment with remote property sources.
+#
+#    The net result of this behavior is that all client applications that want to consume the Config Server need a bootstrap.yml
+#    (or an environment variable) with the server address set in spring.cloud.config.uri (it defaults to "http://localhost:8888").
+spring:
+  application:
+    name: sc-user
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: 4b6fd60a-181a-4e73-b3aa-ce3e0fca49ef

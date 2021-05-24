@@ -1,0 +1,11 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zhangkai",
+  "license": "MIT",
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.7",
+    "jquery": "^3.6.0"
+  }
+}

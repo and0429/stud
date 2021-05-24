@@ -1,0 +1,24 @@
+server:
+  port: 999
+  servlet:
+    context-path: /api
+spring:
+  application:
+    name: sc-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    gateway:
+      routes:
+        - id: user_route
+          uri: lb://sc-user
+          predicates:
+            - Path=/api/user/**
+          filters:
+            - RewritePath=/api/user/?(?<segment>.*), /user/$\{segment}
+
+  devtools:
+    livereload:
+      port: 35700
+

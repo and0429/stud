@@ -1,0 +1,18 @@
+#app:
+#  name: zhangsan,
+#  age: 25
+#  old: true
+#
+#server:
+#  port: 10000
+#  servlet:
+#    context-path: /user
+#spring:
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+spring:
+  devtools:
+    livereload:
+      port: 35702
